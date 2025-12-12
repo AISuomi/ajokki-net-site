@@ -1,0 +1,49 @@
+<base target="_top">
+<meta name="generator" content="Namo WebEditor v5.0(Trial)">
+<form method=post action="http://cgi.neutech.fi/afm.cgi">
+<!-- where the mailer script is.. -->
+<!-- Here you define the needed variables -->
+<!-- Tähän tulee tarpeellisimmat tiedot -->
+<input type=hidden name=RECIPIENT value="info@sb-comp.com">
+<input type=hidden name=THANKURL value="http://www.sb-yhtiot.com/kiitos.html">
+<input type=hidden name=SUBJECT value="www.sb-yhtiot.com">
+<input type=hidden name=FROMADDRESS value="info@sb-comp.com">
+<!-- end of mailer directives -->
+
+<!-- kenttien tarkoitukset ovat kuvattu alla -->
+<!-- RECIPIENT = vastaanottaja, minne palaute lähetetään -->
+<!-- THANKURL  = sivu minne palautteen lähettäjä ohjataan palautteeen jälkeen -->
+<!-- SUBJECT   = palauteviestin aihe -->
+<!-- FROMADDRESS = palauteviesti saapumisosoitr -->
+
+
+<!-- Lets get the users browser information -->
+<!-- Jos haluat tietää mitä selainta vastaaja käytti -->
+<input type=hidden name="BROWSER_INFO">
+
+<!-- Suppress any empty entries so as to not clutter up the email -->
+<!-- Ei haluta tyhjäksi jätettyjä kenttiä palauteviestiin -->
+<input type=hidden name="SUPPRESS_EMPTY">
+
+<input type=hidden name="SEPARATOR" value="=    ">
+
+
+Nimi: 
+<input type=text name=nimi size=40 maxlength=60><BR>
+Puhelin: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type=text name=puhelin size=20 maxlength=60><BR>
+Osoite: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type=text name=osoite size=40 maxlength=60><BR>
+Postinumero ja -toimipaikka: &nbsp;&nbsp;<input type=text name=postinumero size=20 maxlength=60><BR>
+eMail Osoite: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type=text name=eMail size=40 maxlength=60><BR>
+<p>Palaute/Tarjous/Tarjouspyyntö/Tms:</p>
+    <p> 
+<TEXTAREA class=oikea_textarea id=vastaajan_palaute title="Anna tähän viestisi" name=palaute rows="6" cols="40"></TEXTAREA><BR></p>
+    <p>
+&nbsp;</p>
+    <p><input type=submit value="Lähetä">
+        <input type=reset value="Tyhjennä lomake">
+<BR>
+    </p>
+</form>

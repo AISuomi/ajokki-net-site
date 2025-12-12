@@ -1,0 +1,464 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--$Id: sd_common.ihtml,v 1.14 2011/08/03 06:14:59 tapan Exp $ -->
+
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1 " />
+<meta name="description" content="AJOKKI.NET, Siihtalantie 134, Alajärvi MYÖS ILTAISIN JA VKL : Minimaalisilla toimisto- ja varastointikuluilla sekä luotettavien yhteistyökumppaneiden ansiosta pystyn tarjoamaan pikkasen parempia ja reilusti edullisempia ajokkeja, juuri nyt." />
+<meta name="robots" content="follow,index" />
+<meta name="msnbot" content="nocache" />
+<meta name="GOOGLEBOT" content="NOODP" />
+<meta name="author" content="Fiare" />
+<meta name="keywords" content="AJOKKI.NET, auto, autot, vaihtoautot, vaihtoauto, vaihtoautoliike, bensa, polttoaine, käytetyt, nettiauto, osta, myy, käytetty, etsi, haku, ilmastointi, stereot, amatööri, moottori, katsastus, kesäauto, automaatti, kova, halpa, halvalla, kone, hyvä, nopea, ilmainen, ilmaiseksi" />
+<meta name="other" content="NettiX Oy:n kehittämä vaihtoautosivusto. Nettiauto.com on sivusto yksityisille ilmoittajille sekä autoliikkeille. Nettiauto.com:issa on erittäin monipuoliset hakutoiminnot, jotka helpottavat vaihtoautoa etsivää." />
+<meta name="google-site-verification" content="xgP_ssxxfjDo26QtHx6WhbDmg1Z6Q_J_vgPIFGcVmSA" />
+<meta property="fb:page_id" content="28912196411" />
+<meta property="fb:app_id" content="166905810007692" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+
+<title>AJOKKI.NET - Nettiauto</title>
+
+<link href="http://script.nettix.fi/extra/common_template/simple_dealer/common_sds.css" type="text/css" rel="stylesheet" />
+<link href="http://script.nettix.fi/extra/common_template/simple_dealer/marun_common_sds.css" type="text/css" rel="stylesheet" />
+<link href="http://script.nettiauto.com/extra/template/sds_browser.css" type="text/css" rel="stylesheet" />
+<!--<link href="http://script.nettix.fi/extra/common_template/simple_dealer/6/sd_style_new.css" type="text/css" rel="stylesheet" />-->
+<link href="http://script.nettix.fi/extra/common_template/simple_dealer/print_new.css" type="text/css" rel="stylesheet" media="print" />
+<!--<link href="http://script.nettix.fi/extra/common_template/jquery.lightbox.css" type="text/css" rel="stylesheet"/>-->
+<!--[if gte IE 5.5]>
+<![if lt IE 7]><link href="http://script.nettix.fi/extra/common_template/simple_dealer/ie6.css" type="text/css" rel="stylesheet" /><![endif]>
+<![endif]-->
+
+<script language="javascript" type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+                       <script language="javascript" type="text/javascript">jQuery.noConflict()</script>
+<script language="javascript" src="http://script.nettix.fi/extra/common_template/nx_commonTopContent.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="notification_box" style="display:none" ><div class="inline_msg" id="notification_box_msg"></div></div>
+<div id="fb-root"></div>
+<div id="nidReqUser"></div>
+<div id="dhtmltooltip"></div>
+
+<script language="javascript" type="text/javascript">
+<!--
+var commonSiteImage="http://script.nettix.fi/extra/common_image_new";
+
+/* Facebook "Recommend" Button */
+var lang='2';
+var fbJs = 'en_US';
+if(lang == 2)
+    fbJs = 'fi_FI';
+
+window.fbAsyncInit = function()
+{
+    FB.init({appId: 'your app id', status: true, cookie: true,xfbml: true});
+};
+(function() {
+    var e = document.createElement('script'); e.async = true;
+    e.src = document.location.protocol +
+      '//connect.facebook.net/'+fbJs+'/all.js';
+    document.getElementById('fb-root').appendChild(e);
+}());
+
+//-->
+</script>
+
+<div id="main">
+	<div class="lsize">
+        <div id="logo">
+            <h2><a href="http://www.nettiauto.com" target="_blank" title="http://www.nettiauto.com"><span>http://www.nettiauto.com</span></a></h2>
+        </div>
+        <div class="main_header">
+            <div id="header"><div class="header_left"><div class="header_right">
+                <div id="company_name_box"><div id="company_name_box1"><h1><a href="http://www.nettiauto.com/yritys/SFincon" style="text-decoration:none;" title="AJOKKI.NET - Etusivu">AJOKKI.NET</a></h1></div></div>
+                <div id="company_url_box"><div id="company_url_box1">
+                <div id="company_url_box2" class="small_text14">
+                     <a href="javascript:;" onclick="displayBubble('bubble_map',event,3);return false;">Sijainti kartalta</a> &nbsp;&nbsp;  &nbsp;&nbsp; <a href="http://www.ajokki.net" onClick="dealerClickStat('439135','NA');" title="http://www.ajokki.net" target="_blank">www.ajokki.net</a>
+                     <div class="mt10">
+                        <span id="google_plus_button">
+                            <!-- Place this tag in your head or just before your close body tag -->
+                            <script type="text/javascript" src="http://apis.google.com/js/plusone.js">{lang: 'fi'}</script>
+                            <!-- Place this tag where you want the +1 button to render -->
+                            <g:plusone size="small" callback="plusone_vote"></g:plusone>
+                            <script type="text/javascript">function plusone_vote(obj) {_gaq.push(['_trackEvent','plusone',obj.state]);}</script>
+                        </span>
+                         <fb:like href="http://www.nettiauto.com/yritys/SFincon" width="100" layout="button_count" show_faces="false" action="recommend" font="arial"></fb:like>
+                    </div>
+                </div>
+                </div></div>
+                <div class="clear"></div>
+            </div></div></div>
+            
+<!--$Id: sd_headerSearchAutoMoto.ihtml,v 1.1 2011/06/18 05:43:30 payal Exp $ -->
+
+<div id="sub_hed"><div class="hed_lft"><div class="hed_rgt">
+    <form action="http://www.nettiauto.com/yritys/SFincon" name="sds_search" method="post">
+        <input type="hidden" name="sortCol" id="sortCol" value="makemodel"/>
+        <input type="hidden" name="ord" id="ord" value="ASC" />
+        <input type="hidden" name="id_template" id="id_template" value="6" />
+        <input type="hidden" name="id_sds_user" id="id_sds_user" value="439135" />
+        <input type="hidden" name="list_sort_col" />
+        <div class="gry_text fl mt10">Näytä autot:</div>
+        <div class="mlt fl">
+            <select name="id_make" id="sds_search_id_make" onchange="javascript:ajaxListChange(this.form,'ML');">
+                <option value="">Kaikki merkit</option>
+            </select>
+            <select name="id_model" id="sds_search_id_model" onchange="callAjax(this.form);">
+                <option value="">Kaikki mallit</option>
+            </select>
+            <select name="sds_price_from" onchange="priceChange(this,this.form.sds_price_to,'','€');callAjax(this.form);">
+                <option value="">Hinta alkaen</option><option value="1" >1 &euro;</option><option value="500" >500 &euro;</option><option value="1000" >1 000 &euro;</option><option value="1500" >1 500 &euro;</option><option value="2000" >2 000 &euro;</option><option value="2500" >2 500 &euro;</option><option value="3000" >3 000 &euro;</option><option value="4000" >4 000 &euro;</option><option value="5000" >5 000 &euro;</option><option value="6000" >6 000 &euro;</option><option value="7000" >7 000 &euro;</option><option value="8000" >8 000 &euro;</option><option value="9000" >9 000 &euro;</option><option value="10000" >10 000 &euro;</option><option value="12000" >12 000 &euro;</option><option value="14000" >14 000 &euro;</option><option value="16000" >16 000 &euro;</option><option value="18000" >18 000 &euro;</option><option value="20000" >20 000 &euro;</option><option value="25000" >25 000 &euro;</option><option value="30000" >30 000 &euro;</option><option value="35000" >35 000 &euro;</option><option value="40000" >40 000 &euro;</option><option value="45000" >45 000 &euro;</option><option value="50000" >50 000 &euro;</option><option value="60000" >60 000 &euro;</option><option value="70000" >70 000 &euro;</option><option value="80000" >80 000 &euro;</option><option value="90000" >90 000 &euro;</option><option value="100000" >100 000 &euro;</option><option value="110000" >110 000 &euro;</option><option value="120000" >120 000 &euro;</option><option value="130000" >130 000 &euro;</option><option value="140000" >140 000 &euro;</option><option value="150000" >150 000 &euro;</option>
+            </select>
+            <select name="sds_price_to" onchange="callAjax(this.form);">
+                <option value="">Hinta päättyen</option>
+            </select>
+            <span id="tot_result"></span><img id="loadingImg_src_chngCnt" style="display:inline; position:absolute; margin-left:3px;" src="http://www.nettiauto.com/extra/siteimage/ajax-loader_ss.gif" alt="" />
+        </div>
+    </form>
+</div></div></div>
+        </div>
+
+        
+
+    	<div id="fixed_temp6" class="mt10">
+
+            <div id="pagelink">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <td class="bread_crumb" valign="top"><a href="http://www.nettiauto.com">Nettiauto.com</a> &raquo; AJOKKI.NET</td>
+                        
+                        <td class="bon_mak_logo no_bon_mak_logo">
+                             
+                            <div class="fr">Päivitetty 06.08.2011&nbsp;  &nbsp;&nbsp;  &nbsp;Vierailijoita 54104</div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="left_panel">
+                <span class="sms_tl"></span>
+                <div class="plr48 mtb20">
+                    <div id="sds_template6">
+                        <!--$Id: sd_listVehicle.ihtml,v 1.3 2011/06/18 05:42:52 payal Exp $ -->
+
+<form name="sortl" method="get" action="">
+    <input type="hidden" name="sortCol" id="sortCol" value="makemodel"/>
+    <input type="hidden" name="ord" id="ord" value="ASC" />
+    <input type="hidden" name="id_template" id="id_template" value="6" />
+    <input type="hidden" name="id_sds_user" id="id_sds_user" value="439135" />
+    <input type="hidden" name="list_sort_col" />
+</form>
+
+<div class="navigation">
+    <ul>
+        <li class="nav_col1 big_text28">13&nbsp;autoa</li>
+        <li class="nav_select"><select id="list_sort_id" style="vertical-align: top;" class="small_text85" onchange="javascript:sortListFormSDS(this.value,document.sds_search);"><option value="makemodel_ASC" selected="selected">Merkin ja mallin mukaan nousevaksi</option><option value="makemodel_DESC" >Merkin ja mallin mukaan laskevaksi</option><option value="price_ASC" >Halvimmat ensin</option><option value="price_DESC" >Kalleimmat ensin</option><option value="year_DESC" >Uusin vuosimalli ensin</option><option value="year_ASC" >Vanhin vuosimalli ensin</option><option value="mileage_ASC" >Vähiten ajetut ensin</option><option value="mileage_DESC" >Paljon ajetut ensin</option></select></li>
+    </ul>
+    <div class="clear"></div>
+</div>
+<div id="listing">
+	<div class="list_heading mt15">
+		<ul>
+            <li class="col_set23"><a href="javascript:sortForm('makemodel','DESC');" title="Järjestä merkin ja mallin mukaan"><b>Merkki &amp; Malli</b></a> <img src="http://script.nettix.fi/extra/common_image_new/ASCNL.gif" border="0" alt="" class="mid_align" /></li>
+            <li class="col_set9 right_align"><a href="javascript:sortForm('year','ASC');" title="Järjestä vuosimallin mukaan">Vuosi</a></li>
+            <li class="col_set12 vene_width12 right_align"><a href="javascript:sortForm('mileage','ASC');" title="Järjestä mittarilukeman mukaan">Mittarilukema</a></li>
+            <li class="col_set11 right_align"><a href="javascript:sortForm('price','ASC');" title="Järjestä hinnan mukaan">Hinta</a></li>
+            <li class="col_set12 pl20">Varusteet</li>
+            <li class="col8">&nbsp;</li>
+		</ul>
+	</div>
+    <div id="more_list"><!--$Id: sd_listAd.ihtml,v 1.3 2011/06/18 05:42:52 payal Exp $ -->
+
+<div class="listing odd">
+	<ul>
+		<li class="col_set23 pt10 small_text9 lnh18"><b><a href="http://www.nettiauto.com/chevrolet/chevy-van/3276555#yritys=SFincon" class="makelink" title="Katso tiedot" >Chevrolet Chevy Van</a></b><br />(6.2) **REK 9HLÖ, PEHMEÄT PENKIT** **G30 SPORTVAN 6.2D TH700** **EI KÄYTTÖMAKSUA**<br /></li>
+		<li class="col_set9 pt10 small_text9 right_align">1978</li>
+		<li class="col_set12 pt10 small_text9 right_align">500 000 km</li>
+		<li class="col_set11 pt10 right_align small_text9"><span class="no_wrap"><b class="big_text">5 000 &euro;</b></span></li>
+		<li class="col_set12 acc_data">Lohkolämmitin<br />Ohjaustehostin<br />Penkinlämmittimet<br />Sisätilanpistoke<br />Erikoisvanteet<br />Vetokoukku<br />Äänentoistojärjestelmä&nbsp;</li>
+		<li class="col_set18 img_col6"><div class="listing_thumb"><a href="http://www.nettiauto.com/chevrolet/chevy-van/3276555#yritys=SFincon" ><span class="spacer pointer"></span><img name="th3276555" src="http://image.nettiauto.com/extra/carimg/3276501_3276600/chevrolet-chevy-van-3276555_t_0a6b9d2c741f6d05.jpg" border="0" title="Katso tiedot" alt="Katso tiedot" /></a></div><input type="hidden" name="thimg3276555" value="24639744" /><div class="center small_text80 bold"><a onmouseover="swapImage(th3276555,'http://image.nettiauto.com/extra/carimg/3276501_3276600/3276555_t_0a6b9d2c741f6d05.jpg','',24639744);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">1</a>&nbsp;<a onmouseover="swapImage(th3276555,'http://image.nettiauto.com/extra/carimg/3276501_3276600/chevrolet-chevy-van-3276555_t_742884058f897408.jpg','',24639745);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">2</a>&nbsp;<a onmouseover="swapImage(th3276555,'http://image.nettiauto.com/extra/carimg/3276501_3276600/chevrolet-chevy-van-3276555_t_8e3b63a782cde083.jpg','',24639746);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">3</a>&nbsp;<a onmouseover="swapImage(th3276555,'http://image.nettiauto.com/extra/carimg/3276501_3276600/chevrolet-chevy-van-3276555_t_66fafac30a55f43e.jpg','',24639747);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">4</a></div></li>
+	</ul>
+	<div class="clear"></div>
+</div>
+<div class="listing even">
+	<ul>
+		<li class="col_set23 pt10 small_text9 lnh18"><b><a href="http://www.nettiauto.com/chrysler/neon/4116951#yritys=SFincon" class="makelink" title="Katso tiedot" >Chrysler Neon</a></b><br />(2.0) 2.0i A3 16V LE ABS PIHANTYHJÄYS!!  Rahoitusmahdollisuus, käsiraha a´20% **TERVETULOA KAUPOILLE, VAIKKA HETI!!**<br /></li>
+		<li class="col_set9 pt10 small_text9 right_align">1999</li>
+		<li class="col_set12 pt10 small_text9 right_align">174 200 km</li>
+		<li class="col_set11 pt10 right_align small_text9"><span class="no_wrap"><b class="big_text">1 590 &euro;</b></span></li>
+		<li class="col_set12 acc_data">Keskuslukitus<br />Lohkolämmitin<br />Ohjaustehostin<br />Penkinlämmittimet<br />Sähköpeilit<br />Vakionopeudensäädin<br />Käynnistyksenesto<br />Lukkiutumattomat jarrut (ABS)<br />Turvatyynyt<br />Varashälytin<br />Huoltokirja<br />Kahdet renkaat<br />Vetokoukku<br />Äänentoistojärjestelmä&nbsp;</li>
+		<li class="col_set18 img_col6"><div class="listing_thumb"><a href="http://www.nettiauto.com/chrysler/neon/4116951#yritys=SFincon" ><span class="spacer pointer"></span><img name="th4116951" src="http://image.nettiauto.com/extra/carimg/4116901_4117000/chrysler-neon-4116951_t_6fb0347853fa2d0d.jpg" border="0" title="Katso tiedot" alt="Katso tiedot" /></a></div><input type="hidden" name="thimg4116951" value="37972752" /><div class="center small_text80 bold"><a onmouseover="swapImage(th4116951,'http://image.nettiauto.com/extra/carimg/4116901_4117000/4116951_t_6fb0347853fa2d0d.jpg','',37972752);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">1</a>&nbsp;<a onmouseover="swapImage(th4116951,'http://image.nettiauto.com/extra/carimg/4116901_4117000/chrysler-neon-4116951_t_8b0045803597a2c1.jpg','',37972735);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">2</a>&nbsp;<a onmouseover="swapImage(th4116951,'http://image.nettiauto.com/extra/carimg/4116901_4117000/chrysler-neon-4116951_t_e481d61df55cec5f.jpg','',37972736);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">3</a>&nbsp;<a onmouseover="swapImage(th4116951,'http://image.nettiauto.com/extra/carimg/4116901_4117000/chrysler-neon-4116951_t_c795a2d4e7b6f131.jpg','',37972737);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">4</a>&nbsp;<a onmouseover="swapImage(th4116951,'http://image.nettiauto.com/extra/carimg/4116901_4117000/chrysler-neon-4116951_t_46745e3464b0dad7.jpg','',37972749);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">5</a>&nbsp;<a onmouseover="swapImage(th4116951,'http://image.nettiauto.com/extra/carimg/4116901_4117000/chrysler-neon-4116951_t_5123582824601619.jpg','',37972750);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">6</a>&nbsp;<a onmouseover="swapImage(th4116951,'http://image.nettiauto.com/extra/carimg/4116901_4117000/chrysler-neon-4116951_t_dc6d8b7b59aafae3.jpg','',37972751);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">7</a>&nbsp;<a onmouseover="swapImage(th4116951,'http://image.nettiauto.com/extra/carimg/4116901_4117000/chrysler-neon-4116951_t_0630d2f94545056d.jpg','',37972734);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">8</a>&nbsp;<a onmouseover="swapImage(th4116951,'http://image.nettiauto.com/extra/carimg/4116901_4117000/chrysler-neon-4116951_t_ccebb3c302b4c075.jpg','',37972769);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">9</a>&nbsp;<a onmouseover="swapImage(th4116951,'http://image.nettiauto.com/extra/carimg/4116901_4117000/chrysler-neon-4116951_t_88256f7c0dbb9d2a.jpg','',37972770);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">10</a>&nbsp;<a onmouseover="swapImage(th4116951,'http://image.nettiauto.com/extra/carimg/4116901_4117000/chrysler-neon-4116951_t_0576397b72749d01.jpg','',37972772);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">11</a></div></li>
+	</ul>
+	<div class="clear"></div>
+</div>
+<div class="listing odd">
+	<ul>
+		<li class="col_set23 pt10 small_text9 lnh18"><b><a href="http://www.nettiauto.com/citroen/berlingo/4070942#yritys=SFincon" class="makelink" title="Katso tiedot" >Citroen Berlingo</a></b><br />(1.4) 1.4i Multispace Seur.kats 09/2012, 5hlö *TERVETULOA KAUPOILLE, VAIKKA HETI!!* Rahoitus a´10% käsirahalla!<br /></li>
+		<li class="col_set9 pt10 small_text9 right_align">1998</li>
+		<li class="col_set12 pt10 small_text9 right_align">211 100 km</li>
+		<li class="col_set11 pt10 right_align small_text9"><span class="no_wrap"><b class="big_text">2 000 &euro;</b><br /><span class="hlight ">(sis. ALV)</span></span></li>
+		<li class="col_set12 acc_data">Keskuslukitus<br />Lohkolämmitin<br />Ohjaustehostin<br />Penkinlämmittimet<br />Käynnistyksenesto<br />Lukkiutumattomat jarrut (ABS)<br />Erikoisvanteet<br />Huoltokirja<br />Kahdet renkaat<br />Äänentoistojärjestelmä&nbsp;</li>
+		<li class="col_set18 img_col6"><div class="listing_thumb"><a href="http://www.nettiauto.com/citroen/berlingo/4070942#yritys=SFincon" ><span class="spacer pointer"></span><img name="th4070942" src="http://image.nettiauto.com/extra/carimg/4070901_4071000/citroen-berlingo-4070942_t_0527b91f2c2510f0.jpg" border="0" title="Katso tiedot" alt="Katso tiedot" /></a></div><input type="hidden" name="thimg4070942" value="37972897" /><div class="center small_text80 bold"><a onmouseover="swapImage(th4070942,'http://image.nettiauto.com/extra/carimg/4070901_4071000/4070942_t_0527b91f2c2510f0.jpg','',37972897);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">1</a>&nbsp;<a onmouseover="swapImage(th4070942,'http://image.nettiauto.com/extra/carimg/4070901_4071000/citroen-berlingo-4070942_t_7f8db01aa1a739fb.jpg','',37972892);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">2</a>&nbsp;<a onmouseover="swapImage(th4070942,'http://image.nettiauto.com/extra/carimg/4070901_4071000/citroen-berlingo-4070942_t_85a7da98414f607e.jpg','',37972891);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">3</a>&nbsp;<a onmouseover="swapImage(th4070942,'http://image.nettiauto.com/extra/carimg/4070901_4071000/citroen-berlingo-4070942_t_98f7eb528e0d789d.jpg','',37972903);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">4</a>&nbsp;<a onmouseover="swapImage(th4070942,'http://image.nettiauto.com/extra/carimg/4070901_4071000/citroen-berlingo-4070942_t_6742f7961fc9b359.jpg','',37972904);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">5</a>&nbsp;<a onmouseover="swapImage(th4070942,'http://image.nettiauto.com/extra/carimg/4070901_4071000/citroen-berlingo-4070942_t_07d8f9dcdd47a62a.jpg','',37972905);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">6</a>&nbsp;<a onmouseover="swapImage(th4070942,'http://image.nettiauto.com/extra/carimg/4070901_4071000/citroen-berlingo-4070942_t_8348788eba80066b.jpg','',37972906);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">7</a>&nbsp;<a onmouseover="swapImage(th4070942,'http://image.nettiauto.com/extra/carimg/4070901_4071000/citroen-berlingo-4070942_t_10d2911db2fb6a56.jpg','',37972907);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">8</a>&nbsp;<a onmouseover="swapImage(th4070942,'http://image.nettiauto.com/extra/carimg/4070901_4071000/citroen-berlingo-4070942_t_757789193ba5c786.jpg','',37972915);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">9</a></div></li>
+	</ul>
+	<div class="clear"></div>
+</div>
+<div class="listing even">
+	<ul>
+		<li class="col_set23 pt10 small_text9 lnh18"><b><a href="http://www.nettiauto.com/ford/econoline/3695705#yritys=SFincon" class="makelink" title="Katso tiedot" >Ford Econoline</a></b><br />(7.3) *9hlö K-A* PIHANTYHJÄYSNETTO!! *Käsiraha a´10%€* TERVETULOA KAUPOILLE, VAIKKA HETI!<br /></li>
+		<li class="col_set9 pt10 small_text9 right_align">1994</li>
+		<li class="col_set12 pt10 small_text9 right_align">281 000 km</li>
+		<li class="col_set11 pt10 right_align small_text9"><span class="no_wrap"><b class="big_text">6 095 &euro;</b><br /><span class="hlight ">(ALV väh.kelp.)</span></span></li>
+		<li class="col_set12 acc_data">Ohjaustehostin<br />Lukkiutumattomat jarrut (ABS)<br />Erikoisvanteet<br />Huoltokirja<br />Polttoainekäyttöinen lisälämmitin<br />Vetokoukku<br />Äänentoistojärjestelmä&nbsp;</li>
+		<li class="col_set18 img_col6"><div class="listing_thumb"><a href="http://www.nettiauto.com/ford/econoline/3695705#yritys=SFincon" ><span class="spacer pointer"></span><img name="th3695705" src="http://image.nettiauto.com/extra/carimg/3695701_3695800/ford-econoline-3695705_t_922fc18ede320722.jpg" border="0" title="Katso tiedot" alt="Katso tiedot" /></a></div><input type="hidden" name="thimg3695705" value="37865290" /><div class="center small_text80 bold"><a onmouseover="swapImage(th3695705,'http://image.nettiauto.com/extra/carimg/3695701_3695800/3695705_t_922fc18ede320722.jpg','',37865290);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">1</a>&nbsp;<a onmouseover="swapImage(th3695705,'http://image.nettiauto.com/extra/carimg/3695701_3695800/ford-econoline-3695705_t_fb680fc746d1cb06.jpg','',37865279);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">2</a>&nbsp;<a onmouseover="swapImage(th3695705,'http://image.nettiauto.com/extra/carimg/3695701_3695800/ford-econoline-3695705_t_fb15c2fd0e59a81e.jpg','',37865278);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">3</a>&nbsp;<a onmouseover="swapImage(th3695705,'http://image.nettiauto.com/extra/carimg/3695701_3695800/ford-econoline-3695705_t_95c4c9dda6e79b3d.jpg','',37865280);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">4</a>&nbsp;<a onmouseover="swapImage(th3695705,'http://image.nettiauto.com/extra/carimg/3695701_3695800/ford-econoline-3695705_t_784de62aac6fe40a.jpg','',37865281);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">5</a>&nbsp;<a onmouseover="swapImage(th3695705,'http://image.nettiauto.com/extra/carimg/3695701_3695800/ford-econoline-3695705_t_1e837e0575d1135c.jpg','',37865276);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">6</a>&nbsp;<a onmouseover="swapImage(th3695705,'http://image.nettiauto.com/extra/carimg/3695701_3695800/ford-econoline-3695705_t_88cbe993282ea7f3.jpg','',37865277);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">7</a>&nbsp;<a onmouseover="swapImage(th3695705,'http://image.nettiauto.com/extra/carimg/3695701_3695800/ford-econoline-3695705_t_49827b2f825242c2.jpg','',37865275);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">8</a>&nbsp;<a onmouseover="swapImage(th3695705,'http://image.nettiauto.com/extra/carimg/3695701_3695800/ford-econoline-3695705_t_ac0f1627395a162d.jpg','',37865282);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">9</a>&nbsp;<a onmouseover="swapImage(th3695705,'http://image.nettiauto.com/extra/carimg/3695701_3695800/ford-econoline-3695705_t_0a8ef1f078efbf90.jpg','',37865288);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">10</a>&nbsp;<a onmouseover="swapImage(th3695705,'http://image.nettiauto.com/extra/carimg/3695701_3695800/ford-econoline-3695705_t_e3f378a153971225.jpg','',37865289);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">11</a>&nbsp;<a onmouseover="swapImage(th3695705,'http://image.nettiauto.com/extra/carimg/3695701_3695800/ford-econoline-3695705_t_5760a69da021cf2e.jpg','',37865364);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">12</a></div></li>
+	</ul>
+	<div class="clear"></div>
+</div>
+<div class="listing odd">
+	<ul>
+		<li class="col_set23 pt10 small_text9 lnh18"><b><a href="http://www.nettiauto.com/mazda/323f/3837905#yritys=SFincon" class="makelink" title="Katso tiedot" >Mazda 323F</a></b><br />(1.8) 1.8i 16V GLX 5d valmis lähtöön. Rahoitusmahdollisuus 177,8€ käsirahalla<br /></li>
+		<li class="col_set9 pt10 small_text9 right_align">1991</li>
+		<li class="col_set12 pt10 small_text9 right_align">331 000 km</li>
+		<li class="col_set11 pt10 right_align small_text9"><span class="no_wrap"><b class="big_text">777 &euro;</b></span></li>
+		<li class="col_set12 acc_data">Lohkolämmitin<br />Ohjaustehostin<br />Penkinlämmittimet<br />Huoltokirja<br />Vetokoukku&nbsp;</li>
+		<li class="col_set18 img_col6"><div class="listing_thumb"><a href="http://www.nettiauto.com/mazda/323f/3837905#yritys=SFincon" ><span class="spacer pointer"></span><img name="th3837905" src="http://image.nettiauto.com/extra/carimg/3837901_3838000/mazda-323f-3837905_t_508e31f87acea0c2.jpg" border="0" title="Katso tiedot" alt="Katso tiedot" /></a></div><input type="hidden" name="thimg3837905" value="33938567" /><div class="center small_text80 bold"><a onmouseover="swapImage(th3837905,'http://image.nettiauto.com/extra/carimg/3837901_3838000/3837905_t_508e31f87acea0c2.jpg','',33938567);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">1</a>&nbsp;<a onmouseover="swapImage(th3837905,'http://image.nettiauto.com/extra/carimg/3837901_3838000/mazda-323f-3837905_t_671fb830c4bd981a.jpg','',33938506);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">2</a>&nbsp;<a onmouseover="swapImage(th3837905,'http://image.nettiauto.com/extra/carimg/3837901_3838000/mazda-323f-3837905_t_df3d539f0d3e6241.jpg','',33938514);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">3</a>&nbsp;<a onmouseover="swapImage(th3837905,'http://image.nettiauto.com/extra/carimg/3837901_3838000/mazda-323f-3837905_t_a12f69ba6f1c3b6c.jpg','',33938541);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">4</a>&nbsp;<a onmouseover="swapImage(th3837905,'http://image.nettiauto.com/extra/carimg/3837901_3838000/mazda-323f-3837905_t_c089c5ecdd3621bb.jpg','',33938557);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">5</a>&nbsp;<a onmouseover="swapImage(th3837905,'http://image.nettiauto.com/extra/carimg/3837901_3838000/mazda-323f-3837905_t_8ca85f0a9d573094.jpg','',33938526);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">6</a>&nbsp;<a onmouseover="swapImage(th3837905,'http://image.nettiauto.com/extra/carimg/3837901_3838000/mazda-323f-3837905_t_2bec2a7cd142ff3c.jpg','',33938574);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">7</a>&nbsp;<a onmouseover="swapImage(th3837905,'http://image.nettiauto.com/extra/carimg/3837901_3838000/mazda-323f-3837905_t_133d381ac0b02367.jpg','',33938583);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">8</a></div></li>
+	</ul>
+	<div class="clear"></div>
+</div>
+<div class="listing even">
+	<ul>
+		<li class="col_set23 pt10 small_text9 lnh18"><b><a href="http://www.nettiauto.com/muu-merkki/muu-malli/3352584#yritys=SFincon" class="makelink" title="Katso tiedot" >Muu merkki Muu malli</a></b><br />(4.7) * *VOLVO TL-22 6WD** *Tällä mennään perille ja tullaan takaisin!!* Käsiraha a´890€<br /></li>
+		<li class="col_set9 pt10 small_text9 right_align">1957</li>
+		<li class="col_set12 pt10 small_text9 right_align">51 550 km</li>
+		<li class="col_set11 pt10 right_align small_text9"><span class="no_wrap"><b class="big_text">4 450 &euro;</b></span></li>
+		<li class="col_set12 acc_data">Nahkasisusta<br />Huoltokirja<br />Vetokoukku&nbsp;</li>
+		<li class="col_set18 img_col6"><div class="listing_thumb"><a href="http://www.nettiauto.com/muu-merkki/muu-malli/3352584#yritys=SFincon" ><span class="spacer pointer"></span><img name="th3352584" src="http://image.nettiauto.com/extra/carimg/3352501_3352600/muu-merkki-muu-malli-3352584_t_97296b267b720a0b.jpg" border="0" title="Katso tiedot" alt="Katso tiedot" /></a></div><input type="hidden" name="thimg3352584" value="25575353" /><div class="center small_text80 bold"><a onmouseover="swapImage(th3352584,'http://image.nettiauto.com/extra/carimg/3352501_3352600/3352584_t_97296b267b720a0b.jpg','',25575353);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">1</a>&nbsp;<a onmouseover="swapImage(th3352584,'http://image.nettiauto.com/extra/carimg/3352501_3352600/muu-merkki-muu-malli-3352584_t_010697b0d52de15c.jpg','',25575354);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">2</a>&nbsp;<a onmouseover="swapImage(th3352584,'http://image.nettiauto.com/extra/carimg/3352501_3352600/muu-merkki-muu-malli-3352584_t_95b83663f5e1f49a.jpg','',25575355);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">3</a>&nbsp;<a onmouseover="swapImage(th3352584,'http://image.nettiauto.com/extra/carimg/3352501_3352600/muu-merkki-muu-malli-3352584_t_15e99986f30dab7c.jpg','',25575356);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">4</a>&nbsp;<a onmouseover="swapImage(th3352584,'http://image.nettiauto.com/extra/carimg/3352501_3352600/muu-merkki-muu-malli-3352584_t_4c748f4e7d208838.jpg','',25575357);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">5</a>&nbsp;<a onmouseover="swapImage(th3352584,'http://image.nettiauto.com/extra/carimg/3352501_3352600/muu-merkki-muu-malli-3352584_t_c62b8f895b975f24.jpg','',25575358);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">6</a>&nbsp;<a onmouseover="swapImage(th3352584,'http://image.nettiauto.com/extra/carimg/3352501_3352600/muu-merkki-muu-malli-3352584_t_4354e629f9702023.jpg','',25575359);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">7</a>&nbsp;<a onmouseover="swapImage(th3352584,'http://image.nettiauto.com/extra/carimg/3352501_3352600/muu-merkki-muu-malli-3352584_t_14e5959c08f1ce4c.jpg','',25575360);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">8</a>&nbsp;<a onmouseover="swapImage(th3352584,'http://image.nettiauto.com/extra/carimg/3352501_3352600/muu-merkki-muu-malli-3352584_t_72774e90ad6c2cd5.jpg','',25575361);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">9</a>&nbsp;<a onmouseover="swapImage(th3352584,'http://image.nettiauto.com/extra/carimg/3352501_3352600/muu-merkki-muu-malli-3352584_t_45a6b3a40f526e0f.jpg','',25575362);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">10</a>&nbsp;<a onmouseover="swapImage(th3352584,'http://image.nettiauto.com/extra/carimg/3352501_3352600/muu-merkki-muu-malli-3352584_t_130704d40819376a.jpg','',25575363);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">11</a></div></li>
+	</ul>
+	<div class="clear"></div>
+</div>
+<div class="listing odd">
+	<ul>
+		<li class="col_set23 pt10 small_text9 lnh18"><b><a href="http://www.nettiauto.com/nissan/tiida/3687232#yritys=SFincon" class="makelink" title="Katso tiedot" >Nissan Tiida</a></b><br />(1.6) 1.6 Visia 5MT 5-ov. ESP **seur.kats 07/2012* *Käsiraha a´690€* *TERVETULOA KAUPOILLE, VAIKKA HETI!!*<br /></li>
+		<li class="col_set9 pt10 small_text9 right_align">2007</li>
+		<li class="col_set12 pt10 small_text9 right_align">211 100 km</li>
+		<li class="col_set11 pt10 right_align small_text9"><span class="no_wrap"><b class="big_text">6 990 &euro;</b><br /><span class="hlight ">(sis. ALV)</span></span></li>
+		<li class="col_set12 acc_data">Ilmastointi<br />Keskuslukitus<br />Lohkolämmitin<br />Ohjaustehostin<br />Penkinlämmittimet<br />Sisätilanpistoke<br />Sähkökäyttöiset ikkunat<br />Sähköpeilit<br />Käynnistyksenesto<br />Luistonestojärjestelmä<br />Lukkiutumattomat jarrut (ABS)<br />Turvatyynyt<br />Huoltokirja<br />Kahdet renkaat<br />Äänentoistojärjestelmä&nbsp;</li>
+		<li class="col_set18 img_col6"><div class="listing_thumb"><a href="http://www.nettiauto.com/nissan/tiida/3687232#yritys=SFincon" ><span class="spacer pointer"></span><img name="th3687232" src="http://image.nettiauto.com/extra/carimg/3687201_3687300/nissan-tiida-3687232_t_edb6c2d89a1c47ff.jpg" border="0" title="Katso tiedot" alt="Katso tiedot" /></a></div><input type="hidden" name="thimg3687232" value="29857319" /><div class="center small_text80 bold"><a onmouseover="swapImage(th3687232,'http://image.nettiauto.com/extra/carimg/3687201_3687300/3687232_t_edb6c2d89a1c47ff.jpg','',29857319);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">1</a>&nbsp;<a onmouseover="swapImage(th3687232,'http://image.nettiauto.com/extra/carimg/3687201_3687300/nissan-tiida-3687232_t_da81d47a76810dcc.jpg','',29857318);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">2</a>&nbsp;<a onmouseover="swapImage(th3687232,'http://image.nettiauto.com/extra/carimg/3687201_3687300/nissan-tiida-3687232_t_1608950c11d47daa.jpg','',29857320);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">3</a>&nbsp;<a onmouseover="swapImage(th3687232,'http://image.nettiauto.com/extra/carimg/3687201_3687300/nissan-tiida-3687232_t_d8e12d4985337bd9.jpg','',29857321);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">4</a>&nbsp;<a onmouseover="swapImage(th3687232,'http://image.nettiauto.com/extra/carimg/3687201_3687300/nissan-tiida-3687232_t_1d38408dfb7592d9.jpg','',29857322);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">5</a>&nbsp;<a onmouseover="swapImage(th3687232,'http://image.nettiauto.com/extra/carimg/3687201_3687300/nissan-tiida-3687232_t_c1f3139904ae9c59.jpg','',29857323);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">6</a>&nbsp;<a onmouseover="swapImage(th3687232,'http://image.nettiauto.com/extra/carimg/3687201_3687300/nissan-tiida-3687232_t_f89daf1bd93da487.jpg','',29857324);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">7</a>&nbsp;<a onmouseover="swapImage(th3687232,'http://image.nettiauto.com/extra/carimg/3687201_3687300/nissan-tiida-3687232_t_0fef81c82215ac08.jpg','',29857325);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">8</a>&nbsp;<a onmouseover="swapImage(th3687232,'http://image.nettiauto.com/extra/carimg/3687201_3687300/nissan-tiida-3687232_t_f3f97a487dd7fc5f.jpg','',29857326);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">9</a>&nbsp;<a onmouseover="swapImage(th3687232,'http://image.nettiauto.com/extra/carimg/3687201_3687300/nissan-tiida-3687232_t_3c119c28940abe33.jpg','',29857327);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">10</a>&nbsp;<a onmouseover="swapImage(th3687232,'http://image.nettiauto.com/extra/carimg/3687201_3687300/nissan-tiida-3687232_t_212291a2c1978cca.jpg','',29857328);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">11</a>&nbsp;<a onmouseover="swapImage(th3687232,'http://image.nettiauto.com/extra/carimg/3687201_3687300/nissan-tiida-3687232_t_b375b987aa744e33.jpg','',29857329);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">12</a></div></li>
+	</ul>
+	<div class="clear"></div>
+</div>
+<div class="listing even">
+	<ul>
+		<li class="col_set23 pt10 small_text9 lnh18"><b><a href="http://www.nettiauto.com/opel/astra/3639835#yritys=SFincon" class="makelink" title="Katso tiedot" >Opel Astra</a></b><br />(1.8) PIHANTYHJÄYS!! *Näyttävä & vireä tuninki* *Käsiraha a´20%€* *TERVETULOA KAUPOILLE VAIKKA HETI!!*<br /></li>
+		<li class="col_set9 pt10 small_text9 right_align">1995</li>
+		<li class="col_set12 pt10 small_text9 right_align">313 300 km</li>
+		<li class="col_set11 pt10 right_align small_text9"><span class="no_wrap"><b class="big_text">1 399 &euro;</b></span></li>
+		<li class="col_set12 acc_data">Keskuslukitus<br />Lohkolämmitin<br />Ohjaustehostin<br />Penkinlämmittimet<br />Sähköpeilit<br />Turvatyynyt<br />Erikoisvanteet<br />Huoltokirja<br />Urheilullinen alusta<br />Äänentoistojärjestelmä&nbsp;</li>
+		<li class="col_set18 img_col6"><div class="listing_thumb"><a href="http://www.nettiauto.com/opel/astra/3639835#yritys=SFincon" ><span class="spacer pointer"></span><img name="th3639835" src="http://image.nettiauto.com/extra/carimg/3639801_3639900/opel-astra-3639835_t_b1cf56ac7bf4f1ca.jpg" border="0" title="Katso tiedot" alt="Katso tiedot" /></a></div><input type="hidden" name="thimg3639835" value="34570756" /><div class="center small_text80 bold"><a onmouseover="swapImage(th3639835,'http://image.nettiauto.com/extra/carimg/3639801_3639900/3639835_t_b1cf56ac7bf4f1ca.jpg','',34570756);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">1</a>&nbsp;<a onmouseover="swapImage(th3639835,'http://image.nettiauto.com/extra/carimg/3639801_3639900/opel-astra-3639835_t_71c63bb86386ed92.jpg','',34570757);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">2</a>&nbsp;<a onmouseover="swapImage(th3639835,'http://image.nettiauto.com/extra/carimg/3639801_3639900/opel-astra-3639835_t_99d05f5db9809e13.jpg','',34570754);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">3</a>&nbsp;<a onmouseover="swapImage(th3639835,'http://image.nettiauto.com/extra/carimg/3639801_3639900/opel-astra-3639835_t_1ecb5879dfeb7630.jpg','',34570755);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">4</a>&nbsp;<a onmouseover="swapImage(th3639835,'http://image.nettiauto.com/extra/carimg/3639801_3639900/opel-astra-3639835_t_fc3ff66313071e8f.jpg','',34570758);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">5</a>&nbsp;<a onmouseover="swapImage(th3639835,'http://image.nettiauto.com/extra/carimg/3639801_3639900/opel-astra-3639835_t_48ca8052892c575a.jpg','',34570759);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">6</a>&nbsp;<a onmouseover="swapImage(th3639835,'http://image.nettiauto.com/extra/carimg/3639801_3639900/opel-astra-3639835_t_d79dbb55a26f0f6e.jpg','',34570760);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">7</a>&nbsp;<a onmouseover="swapImage(th3639835,'http://image.nettiauto.com/extra/carimg/3639801_3639900/opel-astra-3639835_t_e25028e6faaa8491.jpg','',34570761);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">8</a>&nbsp;<a onmouseover="swapImage(th3639835,'http://image.nettiauto.com/extra/carimg/3639801_3639900/opel-astra-3639835_t_ed8a16d975472c13.jpg','',29190150);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">9</a>&nbsp;<a onmouseover="swapImage(th3639835,'http://image.nettiauto.com/extra/carimg/3639801_3639900/opel-astra-3639835_t_0d3a5e4f80bee2d9.jpg','',29190151);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">10</a>&nbsp;<a onmouseover="swapImage(th3639835,'http://image.nettiauto.com/extra/carimg/3639801_3639900/opel-astra-3639835_t_f0af9f41343b3691.jpg','',29190149);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">11</a></div></li>
+	</ul>
+	<div class="clear"></div>
+</div>
+<div class="listing odd">
+	<ul>
+		<li class="col_set23 pt10 small_text9 lnh18"><b><a href="http://www.nettiauto.com/opel/frontera/4150049#yritys=SFincon" class="makelink" title="Katso tiedot" >Opel Frontera</a></b><br />(2.2) 2.2 DTi 16V GL 5d Vireä & vähäruokainen, seur.kats. 09/2012 *JOPA 10% KÄSIRAHALLA* TERVETULOA KAUPOILLE, VAIKKA HETI!!<br /></li>
+		<li class="col_set9 pt10 small_text9 right_align">1999</li>
+		<li class="col_set12 pt10 small_text9 right_align">280 000 km</li>
+		<li class="col_set11 pt10 right_align small_text9"><span class="no_wrap"><b class="big_text">5 395 &euro;</b></span></li>
+		<li class="col_set12 acc_data">Keskuslukitus<br />Lohkolämmitin<br />Ohjaustehostin<br />Penkinlämmittimet<br />Sähköpeilit<br />Tavaratilan turvaverkko<br />Käynnistyksenesto<br />Lukkiutumattomat jarrut (ABS)<br />Turvatyynyt<br />Huoltokirja<br />Turbo<br />Vetokoukku<br />Äänentoistojärjestelmä&nbsp;</li>
+		<li class="col_set18 img_col6"><div class="listing_thumb"><a href="http://www.nettiauto.com/opel/frontera/4150049#yritys=SFincon" ><span class="spacer pointer"></span><img name="th4150049" src="http://image.nettiauto.com/extra/carimg/4150001_4150100/opel-frontera-4150049_t_89e0452a88ade934.jpg" border="0" title="Katso tiedot" alt="Katso tiedot" /></a></div><input type="hidden" name="thimg4150049" value="38552804" /><div class="center small_text80 bold"><a onmouseover="swapImage(th4150049,'http://image.nettiauto.com/extra/carimg/4150001_4150100/4150049_t_89e0452a88ade934.jpg','',38552804);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">1</a>&nbsp;<a onmouseover="swapImage(th4150049,'http://image.nettiauto.com/extra/carimg/4150001_4150100/opel-frontera-4150049_t_e492f8877e51b7eb.jpg','',38552805);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">2</a>&nbsp;<a onmouseover="swapImage(th4150049,'http://image.nettiauto.com/extra/carimg/4150001_4150100/opel-frontera-4150049_t_12a7d2dbf5e99d1a.jpg','',38552806);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">3</a>&nbsp;<a onmouseover="swapImage(th4150049,'http://image.nettiauto.com/extra/carimg/4150001_4150100/opel-frontera-4150049_t_8ca661006750eb19.jpg','',38552807);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">4</a></div></li>
+	</ul>
+	<div class="clear"></div>
+</div>
+<div class="listing even">
+	<ul>
+		<li class="col_set23 pt10 small_text9 lnh18"><b><a href="http://www.nettiauto.com/opel/omega/4116941#yritys=SFincon" class="makelink" title="Katso tiedot" >Opel Omega</a></b><br />(2.0) Caravan 2.0 GL Tilava & huollettu farkku sopuhintaan, käsiraha a´200€ **TERVETULOA KAUPOILLE, VAIKKA HETI!!**<br /></li>
+		<li class="col_set9 pt10 small_text9 right_align">1992</li>
+		<li class="col_set12 pt10 small_text9 right_align">175 550 km</li>
+		<li class="col_set11 pt10 right_align small_text9"><span class="no_wrap"><b class="big_text">1 000 &euro;</b></span></li>
+		<li class="col_set12 acc_data">Keskuslukitus<br />Lohkolämmitin<br />Ohjaustehostin<br />Käynnistyksenesto<br />Lukkiutumattomat jarrut (ABS)<br />Varashälytin<br />Huoltokirja<br />Kahdet renkaat<br />Kattoluukku<br />Vetokoukku<br />Äänentoistojärjestelmä&nbsp;</li>
+		<li class="col_set18 img_col6"><div class="listing_thumb"><a href="http://www.nettiauto.com/opel/omega/4116941#yritys=SFincon" ><span class="spacer pointer"></span><img name="th4116941" src="http://image.nettiauto.com/extra/carimg/4116901_4117000/opel-omega-4116941_t_de38f08425ad4458.jpg" border="0" title="Katso tiedot" alt="Katso tiedot" /></a></div><input type="hidden" name="thimg4116941" value="37972837" /><div class="center small_text80 bold"><a onmouseover="swapImage(th4116941,'http://image.nettiauto.com/extra/carimg/4116901_4117000/4116941_t_de38f08425ad4458.jpg','',37972837);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">1</a>&nbsp;<a onmouseover="swapImage(th4116941,'http://image.nettiauto.com/extra/carimg/4116901_4117000/opel-omega-4116941_t_a3bbd535d21128ae.jpg','',37972815);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">2</a>&nbsp;<a onmouseover="swapImage(th4116941,'http://image.nettiauto.com/extra/carimg/4116901_4117000/opel-omega-4116941_t_61f71f384e2d99c7.jpg','',37972825);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">3</a>&nbsp;<a onmouseover="swapImage(th4116941,'http://image.nettiauto.com/extra/carimg/4116901_4117000/opel-omega-4116941_t_d262bfcd0ee33c91.jpg','',37972826);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">4</a>&nbsp;<a onmouseover="swapImage(th4116941,'http://image.nettiauto.com/extra/carimg/4116901_4117000/opel-omega-4116941_t_b7ceadaa8920163e.jpg','',37972833);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">5</a>&nbsp;<a onmouseover="swapImage(th4116941,'http://image.nettiauto.com/extra/carimg/4116901_4117000/opel-omega-4116941_t_2177766643a95a36.jpg','',37972834);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">6</a>&nbsp;<a onmouseover="swapImage(th4116941,'http://image.nettiauto.com/extra/carimg/4116901_4117000/opel-omega-4116941_t_3cf1033cc8abc1be.jpg','',37972835);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">7</a>&nbsp;<a onmouseover="swapImage(th4116941,'http://image.nettiauto.com/extra/carimg/4116901_4117000/opel-omega-4116941_t_e3231c05ec684f1c.jpg','',37865431);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">8</a>&nbsp;<a onmouseover="swapImage(th4116941,'http://image.nettiauto.com/extra/carimg/4116901_4117000/opel-omega-4116941_t_25d3d16f0cb7c804.jpg','',37972848);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">9</a>&nbsp;<a onmouseover="swapImage(th4116941,'http://image.nettiauto.com/extra/carimg/4116901_4117000/opel-omega-4116941_t_24ba26872c5e0e89.jpg','',37972849);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">10</a>&nbsp;<a onmouseover="swapImage(th4116941,'http://image.nettiauto.com/extra/carimg/4116901_4117000/opel-omega-4116941_t_07a28918a53a0653.jpg','',37972850);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">11</a></div></li>
+	</ul>
+	<div class="clear"></div>
+</div>
+<div class="listing odd">
+	<ul>
+		<li class="col_set23 pt10 small_text9 lnh18"><b><a href="http://www.nettiauto.com/volkswagen/bora/3176500#yritys=SFincon" class="makelink" title="Katso tiedot" >Volkswagen Bora</a></b><br />(1.9) Ilmastoitu & huollettu *Käytettävissä SAV-Rahoitus a´520€* **TERVETULOA KAUPOILLE,VAIKKA HETI!**<br /></li>
+		<li class="col_set9 pt10 small_text9 right_align">2004</li>
+		<li class="col_set12 pt10 small_text9 right_align">301 100 km</li>
+		<li class="col_set11 pt10 right_align small_text9"><span class="no_wrap"><b class="big_text">5 200 &euro;</b></span></li>
+		<li class="col_set12 acc_data">Ajotietokone<br />Ilmastointi<br />Keskuslukitus<br />Lohkolämmitin<br />Ohjaustehostin<br />Penkinlämmittimet<br />Sähkökäyttöiset ikkunat<br />Sähköpeilit<br />Käynnistyksenesto<br />Lukkiutumattomat jarrut (ABS)<br />Turvatyynyt<br />Huoltokirja<br />Kahdet renkaat<br />Vetokoukku<br />Äänentoistojärjestelmä&nbsp;</li>
+		<li class="col_set18 img_col6"><div class="listing_thumb"><a href="http://www.nettiauto.com/volkswagen/bora/3176500#yritys=SFincon" ><span class="spacer pointer"></span><img name="th3176500" src="http://image.nettiauto.com/extra/carimg/3176401_3176500/volkswagen-bora-3176500_t_4d539398501923c4.jpg" border="0" title="Katso tiedot" alt="Katso tiedot" /></a></div><input type="hidden" name="thimg3176500" value="23925203" /><div class="center small_text80 bold"><a onmouseover="swapImage(th3176500,'http://image.nettiauto.com/extra/carimg/3176401_3176500/3176500_t_4d539398501923c4.jpg','',23925203);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">1</a>&nbsp;<a onmouseover="swapImage(th3176500,'http://image.nettiauto.com/extra/carimg/3176401_3176500/volkswagen-bora-3176500_t_84e1c07af05d5a10.jpg','',23925204);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">2</a>&nbsp;<a onmouseover="swapImage(th3176500,'http://image.nettiauto.com/extra/carimg/3176401_3176500/volkswagen-bora-3176500_t_0776e9e25793b978.jpg','',23925206);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">3</a>&nbsp;<a onmouseover="swapImage(th3176500,'http://image.nettiauto.com/extra/carimg/3176401_3176500/volkswagen-bora-3176500_t_94804092d5321268.jpg','',23925207);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">4</a>&nbsp;<a onmouseover="swapImage(th3176500,'http://image.nettiauto.com/extra/carimg/3176401_3176500/volkswagen-bora-3176500_t_b01e7854de10dc0a.jpg','',23925208);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">5</a>&nbsp;<a onmouseover="swapImage(th3176500,'http://image.nettiauto.com/extra/carimg/3176401_3176500/volkswagen-bora-3176500_t_b5d11fa7881826c2.jpg','',23925209);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">6</a>&nbsp;<a onmouseover="swapImage(th3176500,'http://image.nettiauto.com/extra/carimg/3176401_3176500/volkswagen-bora-3176500_t_0d992ba760cffdbe.jpg','',23925210);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">7</a>&nbsp;<a onmouseover="swapImage(th3176500,'http://image.nettiauto.com/extra/carimg/3176401_3176500/volkswagen-bora-3176500_t_1b5f8eef134317a6.jpg','',23925202);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">8</a></div></li>
+	</ul>
+	<div class="clear"></div>
+</div>
+<div class="listing even">
+	<ul>
+		<li class="col_set23 pt10 small_text9 lnh18"><b><a href="http://www.nettiauto.com/volkswagen/lt/4150055#yritys=SFincon" class="makelink" title="Katso tiedot" >Volkswagen LT</a></b><br />(2.5) 46 umpikuorma-auto, 2.5 TDI 70kW av.3550 Suht siisti, toimiva, sis alv. *JOPA 10% KÄSIRAHALLA!! **TERVETULOA KAUPOILLE, VAIKKA HETI!!**<br /></li>
+		<li class="col_set9 pt10 small_text9 right_align">2000</li>
+		<li class="col_set12 pt10 small_text9 right_align">281 000 km</li>
+		<li class="col_set11 pt10 right_align small_text9"><span class="no_wrap"><b class="big_text">5 750 &euro;</b><br /><span class="hlight ">(ALV väh.kelp.)</span></span></li>
+		<li class="col_set12 acc_data">Lohkolämmitin<br />Ohjaustehostin<br />Penkinlämmittimet<br />Sähköpeilit<br />Lukkiutumattomat jarrut (ABS)<br />Huoltokirja<br />Kahdet renkaat<br />Polttoainekäyttöinen lisälämmitin<br />Turbo<br />Vetokoukku<br />Äänentoistojärjestelmä&nbsp;</li>
+		<li class="col_set18 img_col6"><div class="listing_thumb"><a href="http://www.nettiauto.com/volkswagen/lt/4150055#yritys=SFincon" ><span class="spacer pointer"></span><img name="th4150055" src="http://image.nettiauto.com/extra/carimg/4150001_4150100/volkswagen-lt-4150055_t_17fd592ece9d2f92.jpg" border="0" title="Katso tiedot" alt="Katso tiedot" /></a></div><input type="hidden" name="thimg4150055" value="38552848" /><div class="center small_text80 bold"><a onmouseover="swapImage(th4150055,'http://image.nettiauto.com/extra/carimg/4150001_4150100/4150055_t_17fd592ece9d2f92.jpg','',38552848);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">1</a>&nbsp;<a onmouseover="swapImage(th4150055,'http://image.nettiauto.com/extra/carimg/4150001_4150100/volkswagen-lt-4150055_t_f8e769ef2b289d33.jpg','',38552849);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">2</a>&nbsp;<a onmouseover="swapImage(th4150055,'http://image.nettiauto.com/extra/carimg/4150001_4150100/volkswagen-lt-4150055_t_576f2bd819062421.jpg','',38552850);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">3</a>&nbsp;<a onmouseover="swapImage(th4150055,'http://image.nettiauto.com/extra/carimg/4150001_4150100/volkswagen-lt-4150055_t_8cc0e97ecdc1f6bb.jpg','',38552851);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">4</a>&nbsp;<a onmouseover="swapImage(th4150055,'http://image.nettiauto.com/extra/carimg/4150001_4150100/volkswagen-lt-4150055_t_ec0795897c8c1041.jpg','',38552852);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">5</a>&nbsp;<a onmouseover="swapImage(th4150055,'http://image.nettiauto.com/extra/carimg/4150001_4150100/volkswagen-lt-4150055_t_f999ee8eb158d005.jpg','',38552853);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">6</a>&nbsp;<a onmouseover="swapImage(th4150055,'http://image.nettiauto.com/extra/carimg/4150001_4150100/volkswagen-lt-4150055_t_be3eb4bb2c08e8ed.jpg','',38552854);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">7</a></div></li>
+	</ul>
+	<div class="clear"></div>
+</div>
+<div class="listing odd">
+	<ul>
+		<li class="col_set23 pt10 small_text9 lnh18"><b><a href="http://www.nettiauto.com/volkswagen/vento/3823395#yritys=SFincon" class="makelink" title="Katso tiedot" >Volkswagen Vento</a></b><br />(1.8) 1.8 CL 4d seur.kats.01/2012, huollettu, kohtuumetrit, käsiraha a´200€ **TERVETULOA KAUPOILLE, VAIKKA HETI!!**<br /></li>
+		<li class="col_set9 pt10 small_text9 right_align">1995</li>
+		<li class="col_set12 pt10 small_text9 right_align">241 500 km</li>
+		<li class="col_set11 pt10 right_align small_text9"><span class="no_wrap"><b class="big_text">1 000 &euro;</b></span></li>
+		<li class="col_set12 acc_data">Keskuslukitus<br />Lohkolämmitin<br />Ohjaustehostin<br />Penkinlämmittimet<br />Sisätilanpistoke<br />Sähköpeilit<br />Huoltokirja<br />Kahdet renkaat<br />Vetokoukku<br />Äänentoistojärjestelmä&nbsp;</li>
+		<li class="col_set18 img_col6"><div class="listing_thumb"><a href="http://www.nettiauto.com/volkswagen/vento/3823395#yritys=SFincon" ><span class="spacer pointer"></span><img name="th3823395" src="http://image.nettiauto.com/extra/carimg/3823301_3823400/volkswagen-vento-3823395_t_c7280d63fc3246e9.jpg" border="0" title="Katso tiedot" alt="Katso tiedot" /></a></div><input type="hidden" name="thimg3823395" value="34499012" /><div class="center small_text80 bold"><a onmouseover="swapImage(th3823395,'http://image.nettiauto.com/extra/carimg/3823301_3823400/3823395_t_c7280d63fc3246e9.jpg','',34499012);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">1</a>&nbsp;<a onmouseover="swapImage(th3823395,'http://image.nettiauto.com/extra/carimg/3823301_3823400/volkswagen-vento-3823395_t_382e0dc7db4d45ff.jpg','',34499005);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">2</a>&nbsp;<a onmouseover="swapImage(th3823395,'http://image.nettiauto.com/extra/carimg/3823301_3823400/volkswagen-vento-3823395_t_0f1cb9f9dbfdbf72.jpg','',34499013);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">3</a>&nbsp;<a onmouseover="swapImage(th3823395,'http://image.nettiauto.com/extra/carimg/3823301_3823400/volkswagen-vento-3823395_t_dfc8d8ecb7dae44b.jpg','',34499014);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">4</a>&nbsp;<a onmouseover="swapImage(th3823395,'http://image.nettiauto.com/extra/carimg/3823301_3823400/volkswagen-vento-3823395_t_8650650d635388b3.jpg','',34499015);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">5</a>&nbsp;<a onmouseover="swapImage(th3823395,'http://image.nettiauto.com/extra/carimg/3823301_3823400/volkswagen-vento-3823395_t_3fe20aa4294b5487.jpg','',34499004);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">6</a>&nbsp;<a onmouseover="swapImage(th3823395,'http://image.nettiauto.com/extra/carimg/3823301_3823400/volkswagen-vento-3823395_t_c255e409d21f66c2.jpg','',34499016);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">7</a>&nbsp;<a onmouseover="swapImage(th3823395,'http://image.nettiauto.com/extra/carimg/3823301_3823400/volkswagen-vento-3823395_t_cceabf9dc361c2ad.jpg','',34499017);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">8</a>&nbsp;<a onmouseover="swapImage(th3823395,'http://image.nettiauto.com/extra/carimg/3823301_3823400/volkswagen-vento-3823395_t_bbbaa63d614ee020.jpg','',34499018);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">9</a>&nbsp;<a onmouseover="swapImage(th3823395,'http://image.nettiauto.com/extra/carimg/3823301_3823400/volkswagen-vento-3823395_t_025169939efb49de.jpg','',34499019);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">10</a>&nbsp;<a onmouseover="swapImage(th3823395,'http://image.nettiauto.com/extra/carimg/3823301_3823400/volkswagen-vento-3823395_t_da1ca9dc0669569f.jpg','',34499020);" href="javascript:returnVoid();" title="Pidä hiirtä linkin päällä nähdäksesi seuraavan kuvan ajoneuvosta">11</a></div></li>
+	</ul>
+	<div class="clear"></div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+                <span class="bottom_cr border_bottom_grey"><span class="bl_corner"></span></span>
+            </div>
+            <div id="right_panel"><!-- $Id: lib_listDealerPersonInfoNL.ihtml,v 1.6 2011/06/28 05:29:19 neeta Exp $ -->
+<span class="crov_top"></span>
+<div id="contact_person">
+	<h2 class="rit_heding pl10">Yhteystiedot</h2>
+	<div class="logo_box"><a href="http://www.ajokki.net" onClick="dealerClickStat('439135','NA');" target="_blank"><img src="http://script.nettiauto.com/extra/tmp/dealer/2001_2100/2021_t_7616846502b02f41.jpg" alt="http://www.ajokki.net" border="0" onError="s=this.src;if(!s.match(/nettiauto.gif$/)){this.src='http://script.nettiauto.com/extra/siteimage/nettiauto.gif';}" /></a></div>
+	<div class="addr_box">
+		<h2>AJOKKI.NET,</h2>Siihtalantie 134, 62900 Alajärvi MYÖS ILTAISIN JA VKL<br /><b><a href="javascript:;" onclick="displayBubble('bubble_map',event,3);return false;">Sijainti kartalta</a></b><div class="mt20"><img src="http://script.nettix.fi/extra/common_image_new/mobile.gif" alt="" /> 044-2621562 <br /></div><div class="word_wrap"><a href="http://www.ajokki.net" onClick="dealerClickStat('439135','NA');" title="http://www.ajokki.net" target="_blank" class="bold">Www-sivut</a></div>
+	</div>
+    <div id="company_slogan">PIENET KULUT & LUOTETTAVAT YHTEISTYÖKUMPPANIT MAHDOLLISTAVAT AINA EDULLISIMMAT HINNAT JA PARHAAN LAADUN. Lähes 24h palvelu, myös SAV-Rahoitus NOPEASTI KELLOON KATSOMATTA. Käsiraha a´10% www.yazka.net</div>
+    <div id="company_slogan">Juuri nyt - aina tarvittaessa, MYÖS VIIKONLOPPUISIN</div>
+    <div id="company_slogan">Minimaalisilla toimisto- ja varastointikuluilla sekä luotettavien yhteistyökumppaneiden ansiosta pystyn tarjoamaan pikkasen parempia ja reilusti edullisempia ajokkeja, juuri nyt.</div>
+    <div id="dealer_person_sds" >
+    	<h3 class="ptb15 pl10">Myyjät</h3>
+        <ul>
+           	<li>
+              <div class="col1"><b>Sami Finnilä</b> <br /><img src="http://script.nettix.fi/extra/common_image_new/phone.gif" border="0" title="044-2621562" alt="" />&nbsp;044-2621562<br /><span class="gray_text">Siihtalantie 134, Alajärvi</span></div>
+              <div class="col2 right_align"><img src="http://script.nettix.fi/extra/common_image_new/simple_dealer/sds_personeNL.gif" alt="Sami Finnilä" border="0" /></a></div>
+              <div class="clear"></div>
+            </li>
+         </ul>
+         <div class="clear"></div>
+    </div>
+</div>
+<span class="crov_bot"></span></div>
+            <div class="clear"></div>
+        </div>
+        <!-- $Id: sd_mapBubble.ihtml,v 1.1 2011/04/11 12:24:18 tapan Exp $ -->
+
+<script type="text/javascript">
+    //<![CDATA[
+    function loadMapBubble()
+    {
+        isLoadedBubble=false;
+        showAddress("Siihtalantie 134 62900 Alajärvi MYÖS ILTAISIN JA VKL","<a href=http://www.ajokki.net target=_blank>AJOKKI.NET</a><br />Siihtalantie 134 62900 Alajärvi MYÖS ILTAISIN JA VKL","","map_canvas1");
+    }
+
+    var isLoadedBubble=true;
+    var isLoadedHIF=true;
+
+    function loadGoogleMap(bubble)
+    {
+        if(isLoadedBubble)
+        {
+            var script = document.createElement("script");
+            script.type = "text/javascript";
+            script.src = "http://maps.google.fi/maps?file=api&v=2&key=ABQIAAAAhPgLGbjkUCMZnAywvtmQsxSg4Tm672UYxfkb2f_GyskfKO9abxQcWPi_W9ldUDcsyzr42BeNtUmrPg&async=2&hl=fi&callback=loadMapBubble";
+            document.body.appendChild(script);
+        }
+    }
+    //]]>
+</script>
+
+<div class="bubble_map" id="bubble_map" style="display:none; z-index:5;">
+<div class="buble_border">
+    <div class="buble_content">
+        <h2>AJOKKI.NET, <span>Siihtalantie 134 62900 Alajärvi MYÖS ILTAISIN JA VKL</span></h2>
+        <a href="javascript:;" onclick="return hideBubble('bubble_map');" class="clear_icon_white">Sulje</a>
+        <div class="clear"></div>
+    <!-- Start : Bubble content -->
+        <div id="map_canvas1" class="mt15" style="width:720px; height:300px"></div>
+        <br />
+        <div class="fl"><a href="http://www.nettiauto.com/dealerMapDirection.php?map_address=Siihtalantie+134+62900+Alaj%E4rvi+MY%D6S+ILTAISIN+JA+VKL&map_company=%3Ca+href%3Dhttp%3A%2F%2Fwww.ajokki.net+target%3D_blank%3EAJOKKI.NET%3C%2Fa%3E%3Cbr+%2F%3ESiihtalantie+134+62900+Alaj%E4rvi+MY%D6S+ILTAISIN+JA+VKL&disp_circle=N" onclick="openImg('http://www.nettiauto.com/dealerMapDirection.php?map_address=Siihtalantie+134+62900+Alaj%E4rvi+MY%D6S+ILTAISIN+JA+VKL&map_company=%3Ca+href%3Dhttp%3A%2F%2Fwww.ajokki.net+target%3D_blank%3EAJOKKI.NET%3C%2Fa%3E%3Cbr+%2F%3ESiihtalantie+134+62900+Alaj%E4rvi+MY%D6S+ILTAISIN+JA+VKL&disp_circle=N',780,640);return false;" class="zoom_icon">Näytä suurempi kartta</a></div>
+        <div class="fr right_align">
+            <form name="#" action="" onsubmit="openImg('http://www.nettiauto.com/dealerMapDirection.php?maddress_from='+this.maddress_from.value+'&maddress_to='+this.maddress_to.value,780,640);return false;">
+            <input type="hidden" name="maddress_to" value="Siihtalantie+134+62900+Alaj%E4rvi+MY%D6S+ILTAISIN+JA+VKL" />
+            <label for="frmMapDirection" class="bold small_text9">Reittihaku</label> <input type="text" id="frmMapDirection" name="maddress_from" class="textbox240" />
+            <span class="blue_botton"><input type="submit" name="submit" value="Hae" /></span>
+            <div class="small_text85">Anna lähtöosoitteesi ja paikkakunta niin saat ajoreitin</div>
+            </form>
+        </div>
+        <div class="clear"></div>
+    <!-- End : Bubble content -->
+    </div>
+</div>
+</div>
+    </div>
+    <div class="clear"></div>
+    <div class="push"></div>
+</div>
+<div id="footer">
+    <div class="lsize">
+        <div class="left_col">
+            <div class="col1 fiare">Copyright © 2000-2011 <a href="http://www.nettix.fi" target="_blank" title="NettiX Oy"><span>NettiX Oy</span></a></div>
+            <div class="col2">
+                <span class="power_by">Powered by Viento</span>
+                <a href="http://www.fiare.fi" target="_blank"><img src="http://script.nettix.fi/extra/common_image_new/nettix_footer_logoNL.gif" alt="Nettix" title="Nettix" class="mid_align" hspace="5" /></a>
+                <a href="http://banners.nebula.fi/link_vaaka.php?site=nettiauto2" target="_blank"><img src="http://script.nettix.fi/extra/common_image_new/nebula_footer_logoNL.gif" alt="Nebula" title="Nebula" class="mid_align" hspace="5" /></a>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+<!--Red Sheriff Code starts-->
+<!-- START TNS Matrix V11 -->
+<script type="text/javascript" src="http://script.nettix.fi/extra/common_template/tmv11.js"></script>
+<script type="text/javascript">
+var tmsec=new Array ('tmsec=simple');
+getTMqs('www.nettiauto.com//web/www.nettiauto.com/www/simple_dealer/list.php','','nettiauto_fi','fi','ISO-8859-1',tmsec);
+</script>
+
+<noscript><img src="http://statistik-gallup.net/V11*www.nettiauto.com//web/www.nettiauto.com/www/simple_dealer/list.php*nettiauto_fi/fi/ISO-8859-1/tmsec=simple/" alt="" /></noscript>
+<!-- END TNS Matrix V11 -->
+<!--Red Sheriff Code ends-->
+
+<!-- Server No. : B8 -->
+
+</body>
+<script language="javascript" type="text/javascript">
+<!--
+var alfn = document.sds_search;
+//-->
+</script>
+<script language="javascript" src="http://script.nettix.fi/extra/common_template/nx_combine.min.js?2" type="text/javascript"></script>
+                    <script language="javascript" src="http://script.nettiauto.com/extra/template/na_combine.min.js?2" type="text/javascript"></script><script language="javascript" src="http://script.nettix.fi/extra/common_template/nx_listOwnerAutoload.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+<!--
+var alfn = document.sds_search;
+var efs='';
+if('') efs += '&id_make='+'';
+if('' != 'NV')
+    if('') efs += '&id_model='+'';
+else
+	if('') efs += '&model='+'';
+
+jQuery(document).ready(function() {
+ajaxListChange(document.forms.sds_search,'',efs);});
+priceChange(document.sds_search.sds_price_from,document.sds_search.sds_price_to,'','');
+// -->
+</script>
+</html>

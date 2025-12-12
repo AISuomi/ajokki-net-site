@@ -1,0 +1,1682 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!-- $Id: na_common.ihtml,v 1.20 2007/04/02 11:52:28 samir Exp $ -->
+
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1 " />
+<meta name="description" content="Nettiauto - Osta tai Myy vaihtoautot- Kauppa käy" />
+<meta name="revisit-after" content="15 days" />
+<meta name="robots" content="follow,index" />
+<meta name="author" content="Fiare" />
+<meta name="keywords" content="auto, autot, vaihtoautot, vaihtoauto, vaihtoautoliike, bensa, polttoaine, käytetyt, nettiauto, osta, myy, käytetty, etsi, haku, ilmastointi, stereot, amatööri, moottori, katsastus, kesäauto, automaatti, kova, halpa, halvalla, kone, hyvä, nopea, ilmainen, ilmaiseksi, second hand, used, car, cars, hot, fast, good, cheap" />
+<meta name="other" content="NettiX Oy:n kehittämä vaihtoautosivusto. Nettiauto.com on sivusto yksityisille ilmoittajille sekä autoliikkeille. Nettiauto.com:issa on erittäin monipuoliset hakutoiminnot, jotka helpottavat vaihtoautoa etsivää." />
+<meta name="verify-v1" content="iIHnAjQSOv0utnI9Yikf2ZC2kQBSISge+wn6xfWs2zY=" /><link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+<title> Käytetty vaihtoauto - Volkswagen Kupla Coupé 1.6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nettiauto - Käytetyt vaihtoautot</title>
+
+<!-- $Id: na_commonTop.ihtml,v 1.182 2007/07/23 04:24:22 parishesh Exp $ -->
+<script type="text/javascript">
+function getPage(){
+  url    = window.location.href;
+  page   = window.location.href.toString().match(/\/([^\/]+)(#)?$/)[1];
+  page   = page.replace(/\W/g,"");
+  return page;
+}
+function maintainScrollUnload(e){
+  page = getPage();
+  var date = new Date()
+  var date = new Date()
+  var expdate = date.getTime()
+  expdate += 5*60*1000; //expires in 5 minutes(milliseconds)
+  date.setTime(expdate);
+
+  if(page.match(/^(simpleSearch|listVehicle|listAdvSearchFindAgent|listCategory)/)){
+    document.cookie = 'scroll=' +page+ document.documentElement.scrollTop
+                    + "; expires="+ date.toGMTString();
+  }
+  if(page.match(/^viewVehicle/)){
+  	document.cookie = "prevpage="+page + "; expires="+ date.toGMTString();
+  }
+}
+function maintainScrollLoad(){
+  var page=getPage();
+  if( document.cookie.match(/prevpage=viewVehiclephp/ ) ){
+    var reg = new RegExp( "scroll="+page + "(\\d+)" );
+    if( scroll = document.cookie.match(reg) ){
+      document.documentElement.scrollTop=scroll[1]-100;
+    }
+  }
+}
+if(!window.location.href.toString().match(/\/$/) && navigator.userAgent.indexOf('Firefox') > 0){
+	if (window.addEventListener) {
+	  window.addEventListener("load", maintainScrollLoad, false);
+	  window.addEventListener("beforeunload", maintainScrollUnload, false);
+	}
+}
+</script>
+
+<script language="javascript" src="http://script.nettiauto.com/extra/template/na_2.js" type="text/javascript"></script>
+<script language="javascript" src="http://script.nettiauto.com/extra/template/na_common_79.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">self.name="nettiauto";</script>
+
+<link href="http://script.nettix.fi/extra/common_template/common.css" type="text/css" rel="stylesheet" />
+<link href="http://script.nettiauto.com/extra/template/browser.css" type="text/css" rel="stylesheet" />
+<link href="http://script.nettix.fi/extra/common_template/print.css" type="text/css" rel="stylesheet" media="print" />
+
+<style type="text/css">
+<!--
+	img { behavior:	url(extra/siteimage/pngbehavior.htc); border:0px; }
+	#footerBanner {
+		/* Netscape 4, IE 4.x-5.0/Win and other lesser browsers will use this */
+	  position: absolute; bottom: 0px; width:100%; left:0px; z-index: 1000; height:30px; width:100%; overflow:hidden;
+	}
+	body > div#footerBanner {
+	  /* used by Opera 5+, Netscape6+/Mozilla, Konqueror, Safari, OmniWeb 4.5+, iCab, ICEbrowser */
+	  position: fixed;
+	}
+-->
+</style>
+
+<!--[if gte IE 5.5]>
+<![if lt IE 7]>
+<style type="text/css">
+div#footerBanner {
+	right: auto; bottom: auto; z-index: 1000; height:30px; width:100%; overflow:hidden;
+	left: expression( ( 0 - footerBanner.offsetWidth + ( document.documentElement.clientWidth ? document.documentElement.clientWidth : document.body.clientWidth ) + ( ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft ) ) + 'px' );
+	top: expression( ( 0 - footerBanner.offsetHeight + ( document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight ) + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) ) + 'px' );
+}
+</style>
+<![endif]>
+<![endif]-->
+
+<script src="http://script.nettiauto.com/extra/tmp/make_2_26072007014930.js" type="text/javascript"></script><script src="http://script.nettiauto.com/extra/tmp/town_2.js" type="text/javascript"></script>
+</head>
+<body onload="showBanner('show','');" class="pagebg">
+
+<a name="top"></a>
+
+<center>
+<div class="pageshadow">
+	<table width="920" border="0" cellspacing="0" cellpadding="0" align="center" class="printHide">
+	<tr>
+		<td class="top_bg" style="padding:0 0 10px 0;" align="left">
+			<div id="toplink"><a href="http://mobiili.nettiauto.com">mobiili.nettiauto.com</a> | <a href="http://www.netiauto.ee" target="_blank">netiauto.ee</a></div>
+
+			<table border="0" cellspacing="0" cellpadding="0" width="100%" style="clear:both;">
+			<tr>
+				<td width="728">
+					<!--top banner goes her-->
+					<div class="topbannerbg"><IFRAME WIDTH="728" HEIGHT="90" SCROLLING="No" FRAMEBORDER="0" MARGINHEIGHT="0" MARGINWIDTH="0" SRC="http://adserver.adtech.de/adiframe|3.0|555|1273775|0|225|ADTECH;target=_blank;grp=[group]">
+				<script language="javascript" src="http://adserver.adtech.de/addyn|3.0|555|1273775|0|225|ADTECH;loc=700;target=_blank;grp=[group]"></script>
+				<noscript><a href="http://adserver.adtech.de/adlink|3.0|555|1273775|0|225|ADTECH;loc=300;grp=[group]" target="_blank">
+				<img src="http://adserver.adtech.de/adserv|3.0|555|1273775|0|225|ADTECH;loc=300;grp=[group]" border="0" width="728" height="90"></a></noscript>
+				</IFRAME></div>
+				</td>
+				<td align="right" valign="top">
+					<table border="0" cellspacing="0" cellpadding="0" width="98%">
+					<tr>
+						<td>
+							<div id="xsnazzy">
+							<b class="wtop"><b class="wb1"></b><b class="wb2"></b><b class="wb3"></b><b class="wb4"></b></b>
+							<div class="wboxcontent" style="padding-left:4px;">
+								Katsotuimmat kolariautot
+							</div>
+							<b class="wbottom"><b class="wb4"></b><b class="wb3"></b><b class="wb2"></b><b class="wb1"></b></b>
+							</div>
+						</td>
+					</tr>
+
+
+					<tr>
+						<td style="padding-top:3px;">
+							<div id="xsnazzy">
+							<b class="gtop"><b class="gb1"></b><b class="gb2"></b><b class="gb3"></b><b class="gb4"></b></b>
+							<div class="most_viewed_arrow gboxcontent">
+								&nbsp;<a href="viewVehicle.php?id_car=1221626" title="Audi A4, 1995, 3700 €">Audi A4, 1995, 3700 €</a>
+							</div>
+							<b class="gbottom"><b class="gb4"></b><b class="gb3"></b><b class="gb2"></b><b class="gb1"></b></b>
+							</div>
+						</td>
+					</tr>
+
+					<tr>
+						<td style="padding-top:3px;">
+							<div id="xsnazzy">
+							<b class="gtop"><b class="gb1"></b><b class="gb2"></b><b class="gb3"></b><b class="gb4"></b></b>
+							<div class="most_viewed_arrow gboxcontent">
+								&nbsp;<a href="viewVehicle.php?id_car=1340572" title="Volvo 142, 1973, 1500 €">Volvo 142, 1973, 1500 €</a>
+							</div>
+							<b class="gbottom"><b class="gb4"></b><b class="gb3"></b><b class="gb2"></b><b class="gb1"></b></b>
+							</div>
+						</td>
+					</tr>
+
+					<tr>
+						<td style="padding-top:3px;">
+							<div id="xsnazzy">
+							<b class="gtop"><b class="gb1"></b><b class="gb2"></b><b class="gb3"></b><b class="gb4"></b></b>
+							<div class="most_viewed_arrow gboxcontent">
+								&nbsp;<a href="viewVehicle.php?id_car=1280257" title="Opel Omega, 1988, 2900 €">Opel Omega, 1988, 2900 €</a>
+							</div>
+							<b class="gbottom"><b class="gb4"></b><b class="gb3"></b><b class="gb2"></b><b class="gb1"></b></b>
+							</div>
+						</td>
+					</tr>
+
+					</table>
+				</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+
+	<tr>
+		<td class="top_bg">
+			<ul id="topmenu" style="margin-left:13px; width:100%;">
+				<li class="activebut"><a href="http://www.nettiauto.com" target="_self" title="Nettiauto" style="width:96px; color:#ffffff;">NETTIAUTO</a></li>
+				<li><a href="http://www.nettimoto.com" target="_self" title="Nettimoto">MOTO</a></li>
+				<li><a href="http://www.nettivene.com" target="_self" title="Nettivene">VENE</a></li>
+				<li><a href="http://www.nettimokki.com" target="_self" title="Nettimökki">MÖKKI</a></li>
+				<li><a href="http://www.nettivaraosa.com" target="_self" title="Nettivaraosa">VARAOSA</a></li>
+				<li><a href="http://www.nettikone.com" target="_self" title="Nettikone">KONE</a></li>
+				<li><a href="http://www.nettiasunto.com" target="_self" title="Nettiasunto">ASUNTO</a></li>
+				<li class="big_but"><a href="http://www.nettikirpputori.com" target="_self" title="Nettikirpputori" style="width:90px;">KIRPPUTORI</a></li>
+				<li class="last_but"><a href="http://www.nettikaravaani.com" target="_self" title="Nettikaravaani" style="width:90px;">KARAVAANI</a></li>
+				<li class="postad"><a href="postAd.php" style="width:95px; margin:0px 5px;" title="Jätä ilmoitus">Jätä ilmoitus</a></li>
+			</ul>
+		</td>
+	</tr>
+
+	<tr>
+		<td height="31" class="loginbg">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td><!--$Id: na_loginForm.ihtml,v 1.14 2007/02/05 17:57:35 samir Exp $ -->
+
+<form method="post" action="login.php">
+<input type="hidden" name="login" value="Kirjaudu" />
+<input type="hidden" name="back" value="" />
+	<table width="100%" border="0" cellspacing="0" cellpadding="3" class="whitetext">
+	<tr>
+		<td>
+			<table border="0" cellspacing="0" cellpadding="2" class="whitetext">
+			<tr>
+				<td>&nbsp;</td>
+				<td><img src="http://script.nettix.fi/extra/common_image/spacer.gif" border="0" width="6" height="1" alt="" /></td>
+				<td>Käyttäjätunnus :</td>
+				<td><input type="text" name="loginid" maxlength="12" class="textbox1" /></td>
+				<td><img src="http://script.nettix.fi/extra/common_image/spacer.gif" border="0" width="6" height="1" alt="" /></td>
+				<td>&nbsp;</td>
+				<td>Salasana :</td>
+				<td><input type="password" name="passwd" maxlength="12" class="textbox1" /></td>
+				<td>&nbsp;<input type="submit" name="login" value="Kirjaudu" class="loginbut" /></td>
+			</tr>
+			</table>
+		</td>
+		<td width="250" align="right">
+			<a href="addUser.php" class="submenu" title="Klikkaa tästä rekisteröityäksesi">Rekisteröidy</a> | <a href="forgetPasswd.php" class="submenu" title="Unohditko käyttäjätunnuksen/Salasanan?">Unohditko salasanan?</a> | 
+		</td>
+	</tr>
+	</table>
+</form></td>
+				<td width="70" class="whitetext"><a href="/viewVehicle.php?id_car=1393202&amp;sitelang=1" class="submenu" ><b>In English</b></a>&nbsp;&nbsp;</td>
+	          </tr>
+	        </table>
+		</td>
+	</tr>
+
+	<tr>
+		<td valign="top" class="topimg">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td width="13" height="90"><img src="http://script.nettix.fi/extra/common_image/spacer.gif" width="13" height="111" alt="" /></td>
+	            <td width="152"><a href="http://www.nettiauto.com"><img border="0" title="Nettiauto logo" alt="Nettiauto logo" src="http://script.nettiauto.com/extra/siteimage/nettiauto_logo.gif" /></a></td>
+	            <td width="250">&nbsp;</td>
+	            <td align="right" valign="top">
+	            	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td height="25" align="right" class="blacktext">Torstai 26. heinäkuuta 2007 klo 01:54&nbsp;</td>
+	                </tr>
+
+					<tr>
+						<td align="right">
+							<table width="468" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+		                        <td><img src="http://script.nettix.fi/extra/common_image/banner_corner_1.gif" alt="" /></td>
+		                        <td class="bannerline1"></td>
+		                        <td><img src="http://script.nettix.fi/extra/common_image/banner_corner_2.gif" alt="" /></td>
+							</tr>
+
+							<tr align="left" valign="top">
+								<td class="bannerline4"></td>
+								<td width="468" height="60"><!-- $Id: nos_banner.ihtml,v 1.6 2006/04/12 11:22:10 kaushik Exp $ -->
+
+<script language="javascript" src="http://script.nettiauto.com/extra/tmp/banner/ban_28.js" type="text/javascript"></script>
+<a href="http://www.nettiauto.com" onclick="showBanner('golink',''); return false;" onmouseover="showBanner('showinfo',''); return true;" onmouseout="showBanner('removeinfo',''); return true;"><img src="http://script.nettiauto.com/extra/siteimage/defBanner.gif" border="0" name="netBanner" id="netBanner" alt="" /></a></td>
+								<td class="bannerline2"></td>
+	                      	</tr>
+
+							<tr align="left" valign="top">
+		                        <td><img src="http://script.nettix.fi/extra/common_image/banner_corner_4.gif" alt="" /></td>
+		                        <td class="bannerline3"></td>
+		                        <td><img src="http://script.nettix.fi/extra/common_image/banner_corner_3.gif" alt="" /></td>
+	                      	</tr>
+	                    	</table>
+						</td>
+					</tr>
+					</table>
+				</td>
+				<td width="21">&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+
+	<tr>
+		<td align="center" class="menubg">
+			<table border="0" cellspacing="0" cellpadding="0">
+			<tr>
+
+				<td><a href="home.php" title="Etusivu" class="menulink">Etusivu</a></td>
+
+				<td><a href="advSearch.php" title="Voit tallentaa jopa 4 erilaista hakua. Saat ilmoituksen etsimästäsi ajoneuvosta sähköpostitse" class="menulink">Tarkka haku</a></td>
+
+				<td><a href="listVehicle.php" title="Näytä 30 viimeisintä ilmoitusta" class="menulink">30 Viimeisintä</a></td>
+
+				<td><a href="listDealer.php" title="Näytä liikkeet alueittain" class="menulink">Autoliikkeet</a></td>
+
+				<td><a href="listService.php" title="Palveluhakemisto" class="menulink">Palveluhakemisto</a></td>
+
+				<td><a href="listFavoriteVehicle.php" title="Suosikkilistasi" class="menulink">Suosikkilista</a></td>
+
+				<td><a href="http://www.shoppi.fi/nettix/" title="Kauppa" class="menulink">Kauppa</a></td>
+				<td><a href="http://ra01.relev-ant.com/adclick.php?maxparams=2__bannerid=3827__zoneid=300__cb=bf081dd20f" target="_blank" title="Auton viihdekeskus" class="menulink">Auton viihdekeskus</a></td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+
+	<tr>
+		<td><img src="http://script.nettix.fi/extra/common_image/spacer.gif" width="920" height="1" alt="" /></td>
+	</tr>
+
+	<tr>
+		<td height="3" class="whitebg">
+			
+		</td>
+	</tr>
+	</table>
+<div id="printLogo" align="left"><h4>Nettiauto.com</h4></div>
+
+
+
+
+<div class="conent_area" style="margin-bottom:4px; clear:both;">
+	<div style="min-height:700px;">
+		<div class="whitebg" style="width:735px; margin-right:5px; float:left;">
+			<!-- ALL dynamic contents disply here-->
+			<!-- $Id: na_viewVehicle.ihtml,v 1.89 2007/06/29 11:49:21 manoj Exp $ -->
+
+<!-- Start : Ajax-iframe -->
+<!-- Scripts for Ajax Iframe functionality -->
+<script language="javascript" src="http://script.nettiauto.com/extra/template/htmlhttprequest.js" type="text/javascript"></script>
+<script language="javascript" src="http://script.nettix.fi/extra/common_template/advance_script.js" type="text/javascript"></script>
+
+<script language="javascript" type="text/javascript">
+<!--
+	/* First, we create an example object for our document click handler. */
+	var docClickLoader = new RemoteFileLoader('docClickLoader');
+// -->
+</script>
+<script language="javascript" src="http://script.nettiauto.com/extra/template/ajaxIframe_interface.js" type="text/javascript"></script>
+<!-- End : Ajax-iframe -->
+
+<div id="dhtmltooltip"></div>
+<script language="javascript" src="http://script.nettiauto.com/extra/template/na_tooltip.js" type="text/javascript"></script>
+
+<script language="javascript" type="text/javascript">
+<!--
+	function insertImgEle()
+	{
+		if(!document.getElementById('fullimg'))
+		{
+			document.getElementById('ajxVideoImg').innerHTML = '';
+			document.getElementById('ajxVideoImg').innerHTML = '<img name="fullimg" id="fullimg" src="" class="bigborder" alt="" />';
+		}
+	}
+// -->
+</script>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr class="headingbg">
+	<td><h1><a href="http://www.nettiauto.com" class="pagelink">Nettiauto.com</a>  <img src="http://script.nettix.fi/extra/common_image/pagelink_arrow.gif" align="bottom" alt="" /> <font class="pagelinkactive">Ajoneuvotietolomake</font></h1></td>
+	<td align="right">
+		
+	</td>
+</tr>
+</table>
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr><td align="center"><table width="100%" cellspacing="0" cellpadding="0" border="0"><tr class="odd"></tr></table></td></tr>
+
+<tr>
+	<td>
+		<table width="100%" cellspacing="0" cellpadding="0" border="0">
+		<tr class="even">
+			<td class="listpadding paddingleft">
+                <h3>Volkswagen Kupla</h3>
+                <span class="bigtext lineheight">TYP 3 FASTBACK 1600 TLE Huom! Harvinaisempi ruiskumoottori</span>
+			</td>
+			<td align="right" valign="top" class="paddingRight paddingTop printHide"><a href="http://www.nettiauto.com/simpleSearch.php?display=inline&amp;id_vehicle_type=1&amp;id_make=84&amp;id_model=959&amp;yfrom=1968&amp;yto=1970&amp;engine_size=1.6&amp;id_fuel_type=1&amp;id_drive_type=2&amp;id_gear_type=2&amp;id_car_type=1&amp;vsv=1&amp;PN[0]=car_info&amp;PL[0]=viewVehicle.php?id_car=1393202" onmouseover="ddrivetip('Huomioi erot mallitarkennuksessa ja vuosimallissa','#ffffff',255);" onmouseout="hideddrivetip();"><img src="http://script.nettix.fi/extra/common_image/2/view_similar.gif" alt="" border="0" /></a></td>
+		</tr>
+
+		<tr class="even">
+			<td valign="top">
+				<table width="100%" cellspacing="0" cellpadding="5" border="0">
+				<tr class="odd">
+					<td width="22%" class="paddingleft"><b>Tyyppi</b>:</td>
+					<td width="28%" class="vifborder">Henkilöauto</td>
+					<td width="22%" class="paddingleft"><b>Korimalli</b>:</td>
+					<td width="28%">Coupé</td>
+				</tr>
+
+				<tr class="even">
+					<td class="paddingleft"><b>Väri</b>:</td>
+					<td class="vifborder">Sininen</td>
+					<td class="paddingleft"><b>Vuosimalli </b>:</td>
+					<td>1969</td>
+				</tr>
+
+				<!-- $Id: na_viewVehicleTB.ihtml,v 1.6 2006/04/19 08:56:59 samir Exp $ -->
+
+<tr class="odd">
+	<td class="paddingleft"><b>Mittarilukema</b>:</td>
+	<td class="vifborder">84000 km</td>
+	<td class="paddingleft"><b>Polttoaine</b>:</td>
+	<td>Bensiini</td>
+</tr>
+
+<tr class="even">
+	<td class="paddingleft"><b>Moottorin tilavuus</b>:</td>
+	<td class="vifborder">1.6 l</td>
+	<td class="paddingleft"><b>Vetotapa</b>:</td>
+	<td>Takaveto</td>
+</tr>
+
+				<tr class="odd">
+					<td class="paddingleft"><b>Sijainti</b>:</td>
+					<td class="vifborder" colspan="1">Etelä-Pohjanmaa, Alajärvi</td>
+				
+				
+					<td class="paddingleft"><b>Hinta</b>:</td>
+					<td class="vifborder" colspan="1">4000 &euro;</td>
+				</tr>
+				<tr class="even">
+					<td class="paddingleft"><b>Vaihteisto</b>:</td>
+					<td class="vifborder" colspan="1">Manuaali</td>
+				
+				
+					<td class="paddingleft"><b>Päivitetty</b>:</td>
+					<td class="vifborder" colspan="1">24.07.2007</td>
+				</tr>
+				</table>
+			</td>
+			<td width="150" height="145" valign="top" class="odd paddingRight printHide" colspan="2" style="padding-bottom:5px;">
+				<img src="http://script.nettix.fi/extra/common_image/2/advertisement.gif" alt="Mainos" title="Mainos" hspace="2" vspace="9" /><br />
+				<div id="divVifBanner" name="divVifBanner">&nbsp;</div>
+			</td>
+		</tr>
+		</table>
+	</td>
+</tr>
+
+<!-- $Id: na_viewVehicleLC.ihtml,v 1.21 2007/04/17 10:19:16 samir Exp $ -->
+
+<tr class="even">
+	<td>
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<tr class="headingbg"> 
+			<td><h1>Rahoituslaskelma vakuudettomalle lainalle</h1></td>
+			<td align="right" class="paddingRight"><b>Yhteistyössä GE Money</b></td>
+		</tr>
+		
+		<tr><td colspan="2" class="whitebg"><img src="http://script.nettix.fi/extra/common_image/spacer.gif" alt="" height="1" width="1" /></td></tr>
+		
+		<tr>
+			<td valign="top" class="odd" colspan="2">
+				<table width="100%" cellspacing="0" cellpadding="5" border="0">
+				<tr class="odd">
+					<td width="22%" class="paddingleft"><b>Muuten rahoitettava osuus</b>:</td>
+					<td width="89" class="vifborder">0 &euro;</td>
+					<td width="20%" class="paddingleft"><b>Vähimmäiserä/kk</b>:</td>
+					<td>96 &euro;</td>
+				</tr>
+		
+				<tr class="even">
+					<td class="paddingleft"><b>Laina-aika</b>:</td>
+					<td class="vifborder">60 kuukautta</td>
+					<td class="paddingleft"><b>Nimelliskorko</b>:</td>
+					<td>11.73 %</td>
+				</tr>
+				
+				<tr class="odd">
+					<td class="paddingleft"><b>KSL:n mukainen todellinen vuosikorko</b>:</td>
+					<td valign="bottom" class="vifborder">16.64 %</td>
+					<td class="paddingleft"><b>Lainan saamisen edellytykset</b>:</td>
+					<td valign="bottom">ikä 21 vuotta, säännölliset tulot, ei maksuhäiriöitä</td>
+				</tr>
+				</table>
+			</td>
+			
+			<td valign="top" rowspan="3">
+				<!-- Add will come here-->
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="smalltext1 paddingleft paddingRight lineheight" colspan="2">
+				<div align="justify" class="tbpadding">
+				Laskelma on suuntaa-antava. Lopulliseen lainan takaisinmaksuaikaan, 
+				kuukausierään ja todelliseen vuosikorkoon vaikuttavat esimerkiksi 
+				valittu eräpäivä ja mahdolliset lyhennysvapaat kuukaudet.
+				Mikäli haluat tehdä rahoituslaskelman jollain muulla summalla tai 
+				takaisinmaksuajalla voit tehdä sen lainalaskurin avulla. 
+				Vaihtoehtoisesti voit laskea myös toivomasi kuukausierän perusteella 
+				lainalle muodostuvan takaisinmaksuajan.
+				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td height="30" valign="top" align="center" colspan="2" class="printHide">
+				<!--<a class="catlink" onclick="JavaScript:openImg('https://www.gemoney.fi/content/private/LoanApplicationPage1.aspx?BannerID=',800,710,'loan_calc');return false;" href="https://www.gemoney.fi/content/private/LoanApplicationPage1.aspx?BannerID=" target="_blank"><B><img src="http://script.nettiauto.com/extra/siteimage/2/loan_app.gif" alt="Lainahakemus" border="0" /></a>-->
+				<a class="catlink" href="gefaq.html" target="_blank" onclick="javascript:window.open('gefaq.html', '', 'height=520,width=630,toolbar=no,scrollbars=no,resizable=no'); return false;"><img src="http://script.nettix.fi/extra/common_image/2/loan_more.gif" alt="Lisätietoja lainasta" title="Lisätietoja lainasta" border="0" /></a>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a class="catlink" href="geLoanAppForm.php" target="_blank" onClick="JavaScript:openImg('geLoanAppForm.php',750,675,'loan_calc');return false;"><img src="http://script.nettix.fi/extra/common_image/2/loan_app.gif" alt="Lainahakemus" title="Lainahakemus" border="0" /></a>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a class="catlink" href="http://www.gemoney.fi/templates/LoanCalculatorPartner____955.aspx?LoanAmount=4000&MonthlyPayment=96" target="_blank" onclick="javascript:window.open('http://www.gemoney.fi/templates/LoanCalculatorPartner____955.aspx?LoanAmount=4000&MonthlyPayment=96', '', 'height=710,width=630,toolbar=no,scrollbars=yes,resizable=no'); return false;"><img src="http://script.nettix.fi/extra/common_image/2/loan_calc.gif" alt="Lainalaskuri" border="0"\></a>
+			</td>
+		</tr>
+		</table>
+	</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+	<td>
+		<table width="100%" cellspacing="0" cellpadding="0" border="0">
+		<tr class="headingbg">
+			<td><h1>Ajoneuvo Id: 1393202</h1> &nbsp;<span class="hourlogo"><img src="http://script.nettix.fi/extra/common_image/2/updated_72h.gif" vspace="2" alt="" border="0" /></span></td>
+		</tr>
+
+		<tr><td class="whitebg"><img src="http://script.nettix.fi/extra/common_image/spacer.gif" alt="" height="1" width="1" /></td></tr>
+
+		<tr class="odd">
+			<td>
+				<!-- Displayes when VIF is opened from Na only -->
+				<!-- $Id: na_akeAd.ihtml,v 1.4 2005/12/08 11:32:58 aum Exp $ -->
+
+<table width="100%" cellspacing="0" cellpadding="5" border="0">
+<tr>
+	<td width="20%" align="center">
+		<a href="http://www.elisa.net/haku/ake.shtml" target="_blank"><img src="http://script.nettiauto.com/extra/advertise/ake_150_60.gif" border="0" alt="Ostamassa ajoneuvoa? Tarkista ajoneuvon tiedot tästä" /></a>
+	</td>
+	<td width="80%" valign="top">Lähetä tekstiviesti <b>AT</b> <b>REKNO</b> numeroon 16258, niin saat sekä ajoneuvon omistaja-/haltijatiedot että tekniset tiedot suoraan AKEn ajoneuvoliikennerekisteristä. Hinta 1,90 eur/onnistunut haku. Toimii Elisan, Kolumbuksen, Soneran, TeleFinlandin, DNAn ja Saunalahden liittymillä. <a href="http://www.elisa.net/haku/ake.shtml" target="_blank">Lisätietoja</a></td>
+</tr>
+</table>
+			</td>
+		</tr>
+		</table>
+	</td>
+</tr>
+
+<tr class="even">
+	<td>
+		<table width="100%" cellspacing="0" cellpadding="8" border="0">
+		<tr>
+			<td align="right" width="70%" valign="top" rowspan="2">
+				<div id="ajxVideoImg">
+					<img name="fullimg" id="fullimg" src="http://image.nettiauto.com/extra/carimg/1393201_1393300/1393202_b_0a06bca1de50d8e5.jpg" class="bigborder" alt="" />
+				</div>
+			</td>
+			<td width="30%" valign="top" align="center">
+				<table cellspacing="1" cellpadding="2" border="0" width="100%">
+				<tr class="even">
+					<td><a href="javascript:insertImgEle();loadImage('http://image.nettiauto.com/extra/carimg/1393201_1393300/1393202_b_0a06bca1de50d8e5.jpg');"><img src="http://image.nettiauto.com/extra/carimg/1393201_1393300/1393202_jt_0a06bca1de50d8e5.jpg" border="0"  class="iborder" onmouseover="this.className='oborder'" onmouseout="this.className='iborder'" alt="Klikkaa suurentaaksesi" title="Klikkaa suurentaaksesi" /></a></td>
+				
+				
+					<td><a href="javascript:insertImgEle();loadImage('http://image.nettiauto.com/extra/carimg/1393201_1393300/1393202_b_0f527b9bc8822c24.jpg');"><img src="http://image.nettiauto.com/extra/carimg/1393201_1393300/1393202_jt_0f527b9bc8822c24.jpg" border="0"  class="iborder" onmouseover="this.className='oborder'" onmouseout="this.className='iborder'" alt="Klikkaa suurentaaksesi" title="Klikkaa suurentaaksesi" /></a></td>
+				</tr>
+				<tr class="even">
+					<td><a href="javascript:insertImgEle();loadImage('http://image.nettiauto.com/extra/carimg/1393201_1393300/1393202_b_1e629d63a50de3e4.jpg');"><img src="http://image.nettiauto.com/extra/carimg/1393201_1393300/1393202_jt_1e629d63a50de3e4.jpg" border="0"  class="iborder" onmouseover="this.className='oborder'" onmouseout="this.className='iborder'" alt="Klikkaa suurentaaksesi" title="Klikkaa suurentaaksesi" /></a></td>
+				
+				
+					<td><a href="javascript:insertImgEle();loadImage('http://image.nettiauto.com/extra/carimg/1393201_1393300/1393202_b_031bc700d8b38e09.jpg');"><img src="http://image.nettiauto.com/extra/carimg/1393201_1393300/1393202_jt_031bc700d8b38e09.jpg" border="0"  class="iborder" onmouseover="this.className='oborder'" onmouseout="this.className='iborder'" alt="Klikkaa suurentaaksesi" title="Klikkaa suurentaaksesi" /></a></td>
+				</tr>
+				<tr class="even">
+					<td><a href="javascript:insertImgEle();loadImage('http://image.nettiauto.com/extra/carimg/1393201_1393300/1393202_b_a56fdae436b7c5da.jpg');"><img src="http://image.nettiauto.com/extra/carimg/1393201_1393300/1393202_jt_a56fdae436b7c5da.jpg" border="0"  class="iborder" onmouseover="this.className='oborder'" onmouseout="this.className='iborder'" alt="Klikkaa suurentaaksesi" title="Klikkaa suurentaaksesi" /></a></td>
+				
+				
+					<td><a href="javascript:insertImgEle();loadImage('http://image.nettiauto.com/extra/carimg/1393201_1393300/1393202_b_0798971a021f81c3.jpg');"><img src="http://image.nettiauto.com/extra/carimg/1393201_1393300/1393202_jt_0798971a021f81c3.jpg" border="0"  class="iborder" onmouseover="this.className='oborder'" onmouseout="this.className='iborder'" alt="Klikkaa suurentaaksesi" title="Klikkaa suurentaaksesi" /></a></td>
+				</tr>
+				
+				</table>
+			</td>
+		</tr>
+
+		<tr>
+			<td align="center" colspan="2">
+				<!-- Add will come here-->
+				<!-- $Id: na_viewVehicleAd.ihtml,v 1.13 2006/12/27 12:30:19 samir Exp $ -->
+
+<!--hr class="line" width="95%" />
+
+<div style="width:150px; padding:0 0 8px 0px; text-align:left;"><img src="http://script.nettix.fi/extra/common_image/2/advertisement.gif" alt="Mainos" title="Mainos" hspace="2" vspace="5" /></div-->
+<script language="javascript" type="text/javascript">
+<!--
+   var awrz_rnd = Math.floor(Math.random()*99999999999);
+   var awrz_protocol = location.protocol.indexOf('https')>-1?'https:':'http:';
+   if (!document.phpAds_used) document.phpAds_used = ',';
+   document.write ("<" + "script language='JavaScript' type='text/javascript' src='");
+   document.write (awrz_protocol+"//banner.habanero.fi/adjs.php?n=ae454ef0");
+   document.write ("&zoneid=61");
+   document.write ("&exclude=" + document.phpAds_used);
+   document.write ("&loc=" + escape(window.location));
+   if (document.referrer)
+      document.write ("&referer=" + escape(document.referrer));
+   document.write ('&r=' + awrz_rnd);
+   document.write ("&ct0=" + escape(document.phpAds_ct0));
+   document.write ("'><" + "/script>");
+//-->
+</script><noscript><a href="http://banner.habanero.fi/adclick.php?n=ae454ef0" target="_blank"><img src="http://banner.habanero.fi/adview.php?zoneid=61&amp;n=ae454ef0" border="0" alt="" /></a></noscript>
+			</td>
+		</tr>
+		</table>
+	</td>
+</tr>
+
+
+
+<!-- $Id: na_vifFullField.ihtml,v 1.5 2006/11/10 12:34:05 samir Exp $ -->
+
+<tr class="headingbg"> 
+	<td><h1>Varustetiedot</h1></td>
+</tr>
+
+<tr class="odd">
+	<td>
+		<div class="padding lineheight">
+			<b>Sisätilat ja mukavuudet:</b><br />Lohkolämmitin<br /><div style="padding: 2px;"></div><b>Muut:</b><br />Kahdet renkaat, Polttoainekäyttöinen lisälämmitin<br /><div style="padding: 2px;"></div>
+		</div>
+	</td>
+</tr>
+
+<!-- $Id: na_vifFullField.ihtml,v 1.5 2006/11/10 12:34:05 samir Exp $ -->
+
+<tr class="headingbg"> 
+	<td><h1>Lisätiedot</h1></td>
+</tr>
+
+<tr class="odd">
+	<td>
+		<div class="padding lineheight">
+			Kohtuulaitolla museo autoksi, klassikko jolla myös ehtii jos on kiire..  &nbsp;<br /> &nbsp;<br />Kaikki ok, maalaus vielä vaiheessa, (hallista puuttuu katto ja seinät, tilaa kyllä on..) ajoon valmis, mustat kilvet, edellisen katsastuksen jälkeen ajettu muutama sata kilometriä.&nbsp;<br />&nbsp;<br />Auto tuotu parivuotta sitten pohjoisruotsista, eli ei ole mikään ruostepommi&nbsp;<br /> &nbsp;<br />tee tarjous, vaihdetaan mieluusti rahaan, kaikki tarjoukset otetaan huomioon..  &nbsp;<br /> &nbsp;<br />Mikäli jotain muuta kuin rahaa haluat antaa vaihdossa, kerro myös oma näkemys välirahasta.  &nbsp;<br /> &nbsp;<br />Tarvittaessa kotiinkuljetus järjestyy polttoainerahoja vastaam (=ennakkomaksu), veloitus 0,50e/km (esim. Oulu 150e, Helsinki 200e, Tampere 100e, Joensuu 180e, Nuorgam 500e)  &nbsp;<br /> &nbsp;<br /> &nbsp;<br />Lisää kuvia <a href="http://www.ajokki.net" target="_blank">http://www.ajokki.net</a> tai <a href="http://www.yazka.net" target="_blank">http://www.yazka.net</a>
+		</div>
+	</td>
+</tr>
+
+<tr>
+	<td align="center">
+		<div id="contAjaxRequest" name="contAjaxRequest"></div>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<table width="100%" cellspacing="0" cellpadding="0" border="0">
+		<tr class="headingbg">
+			<td><h1>Myyjä</h1></td>
+		</tr>
+		</table>
+	</td>
+</tr>
+
+<tr class="odd"><td></td></tr>
+
+<tr class="odd">
+	<td><!-- $Id: na_vifUserContact.ihtml,v 1.22 2007/05/29 11:40:47 manoj Exp $ -->
+
+<script language="javascript" src="http://script.nettiauto.com/extra/template/na_bubble.js" type="text/javascript"></script>
+<script language="javascript" src="http://script.nettiauto.com/extra/template/na_contEmailValidaton.js" type="text/javascript"></script>
+
+<script language="javascript" type="text/javascript">
+<!--
+	function badAdPress()
+	{
+		if(checkBblFld())
+		{
+			document.getElementById("badAdBtn").src = document.getElementById("btnImgUrl").value + '/' + document.getElementById("sesnLang").value + '/badad_pressed.gif';
+			document.getElementById("badAdBtn").onclick = '';
+			document.getElementById("badAdBtn").alt = document.getElementById("changedTip").value;
+			document.getElementById("badAdBtn").title = document.getElementById("changedTip").value;
+
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+
+	function checkBblFld()
+	{
+		var checkResult = true;
+
+		if((!document.getElementById("report_ad").checked) && (!document.getElementById("report_owner").checked))
+		{
+			checkResult = false;
+
+			alert(msgMandet);
+		}
+
+		if(isblank(document.getElementById("content").value))
+		{
+			checkResult = false;
+
+			alert(msgMandet);
+		}
+		else
+		{
+			var report = document.getElementById("content").value;
+
+			if(report.length > 300)
+			{
+				alert(msgLongReport);
+
+				checkResult = false;
+			}
+		}
+
+		return checkResult;
+	}
+// -->
+</script>
+
+<div class="padding">
+	<table cellspacing="0" cellpadding="2" border="0">
+	<tr>
+		<td class="blacktext"><b>Yksityinen myyjä :</b>&nbsp;</td>
+		<td>Sami Finnilä, Alajärvi 044-2621562 , <img src="http://script.nettix.fi/extra/common_image/phone.gif" alt="00358442621562" title="00358442621562" />00358442621562&nbsp;&nbsp;<span class="printHide"><input type="button" class="button" onclick="if(document.getElementById('contact').style.display == 'none'){displayBubble('contact',event,1);}else{hideBubble('contact');}" value="Yhteydenottopyyntö myyjälle" /></span></td>
+	</tr>
+
+	<tr>
+		<td>Paras aika tavoitella : </td>
+		<td class="blacktext"><b>24H numeroon 044-2621562 soitot - SMS - MMS</b></td>
+	</tr>
+	</table>
+</div>
+
+<div id="contact" name="contact" style="display:none" class="bubble">
+<table width="280" border="0" cellspacing="0" cellpadding="0">
+<tr>
+	<td width="19" valign="top"><img src="http://script.nettix.fi/extra/common_image/top_curve1.png" width="23" height="30" alt="" /></td>
+	<td align="right" valign="bottom" class="bubble_top_border"><img src="http://script.nettix.fi/extra/common_image/close.gif" onclick="return hideBubble('contact');" alt="" class="handicon" /></td>
+	<td width="19" valign="top"><img src="http://script.nettix.fi/extra/common_image/top_curve2.png" width="23" height="30" alt="" /></td>
+</tr>
+<tr>
+	<td class="bubble_left_border">&nbsp;</td>
+	<td class="bubble_area">
+			<!-- Start : Bubble content -->
+			<form name="contRequest" id="contRequest" method="post" onsubmit="if(contReq(0,'')){hideBubble('contact');docClickLoader.submitInto(this, 'contAjaxRequest', event);}else{return false;}" action="/viewVehicle.php?id_car=1393202"><input type="hidden" name="seller_id" value="407147" />
+<input type="hidden" name="seller_type" value="S" />
+<input type="hidden" name="id_make" value="84" />
+<input type="hidden" name="id_model" value="959" />
+<input type="hidden" name="vehicle_id" value="1393202" />
+<input type="hidden" id="fname" name="fname" value="" />
+<input type="hidden" id="lname" name="lname" value="" />
+<input type="hidden" id="email" name="email" value="" />
+<input type="hidden" id="auth" name="auth" value="4feb22ea9ff167ae9671198f08e7f446" />
+
+			<table width="100%" cellspacing="0" cellpadding="3" border="0">
+
+				<tr>
+					<td colspan="2">
+						<b>Yhteydenottopyyntö myyjälle sähköpostilla</b>
+					</td>
+				</tr>
+
+				<tr height="6"><td colspan="2"></td></tr>
+
+				<tr>
+					<td colspan="2" valign="top">
+						<table width="100%" border="0" cellpadding="0" cellspacing="2" style="line-height:180%">
+
+						<tr>
+							<td align="left" colspan="2">
+								<input type="radio" name="contact_info" id="contact_info" value="more_info" onclick="hide_bubble();" checked="true" />Lisätiedoista
+							</td>
+						</tr>
+
+						<tr>
+							<td align="left"  colspan="2">
+								<input type="radio" name="contact_info" id="contact_info" value="purchase_info" onclick="hide_bubble();" />Ostosta
+							</td>
+						</tr>
+
+						<tr>
+							<td align="left"  colspan="2">
+								<input type="radio" name="contact_info" id="contact_info" value="exchange" onclick="display_bubble();" />Vaihdosta
+							</td>
+						</tr>
+
+						<tr>
+							<td align="left" colspan="2">
+								<input type="radio" name="contact_info" id="contact_info" value="test_drive" onclick="hide_bubble();" />Koeajosta
+							</td>
+						</tr>
+
+						<!-- $Id: na_notLoginBubbleSellerInfo.ihtml,v 1.5 2007/05/29 11:40:47 manoj Exp $ -->
+	<tr>
+		<td colspan="2"><b>Etunimi</b><br />
+			<input type="text" name="firstname" id="firstname" maxlength="30" class="textbox2" /> <font class="star"> * </font>
+		</td>
+	</tr>
+
+	<tr>
+		<td colspan="2"><b>Sukunimi</b><br />
+			<input type="text" name="lastname" id="lastname" maxlength="30" class="textbox2" /> <font class="star"> * </font>
+		</td>
+	</tr>
+
+	<tr>
+		<td colspan="2"><b>Sähköpostiosoite</b><br />
+			<input type="text" name="emailAdd" id="emailAdd" maxlength="60" class="textbox2" /> <font class="star"> * </font>
+		</td>
+	</tr>
+
+	<tr>
+		<td><b>Puhelinnumero</b><br />
+			<input type="text" name="phone" id="phone" maxlength="30" class="textbox2" /> <font class="star"> * </font>
+		</td>
+	</tr>
+
+						<tr>
+							<td colspan="2">
+								<div id="exch" style="display:none">
+									<table width="100%" cellspacing="0" cellpadding="0" border="0" style="line-height:180%">
+
+										<!-- $Id: na_bubbleNotLoginContInfo.ihtml,v 1.3 2007/03/12 05:05:45 manoj Exp $ -->
+
+	<tr>
+		<td><b>Merkki</b><br />
+			<input type="text" name="make" id="make" maxlength="30" class="textbox2" /> <font class="star"> * </font>
+		</td>
+	</tr>
+
+	<tr>
+		<td><b>Malli</b><br />
+			<input type="text" name="model" id="model" maxlength="30" class="textbox2" /> <font class="star"> * </font>
+		</td>
+	</tr>
+
+	<tr>
+		<td><b>Mittarilukema</b><br />
+			<input type="text" name="mileage" id="mileage" maxlength="30" class="textbox2" /> <font class="star"> * </font>
+		</td>
+	</tr>
+
+	<tr>
+		<td><b>Vuosimalli </b><br />
+			<input type="text" name="year" id="year" maxlength="30" class="textbox2" /> <font class="star"> * </font>
+		</td>
+	</tr>
+
+	<tr>
+		<td><b>Hinta</b><br />
+			<input type="text" name="price" id="price" maxlength="30" class="textbox2" />
+		</td>
+	</tr>
+
+										
+
+									</table>
+								</div>
+							</td>
+						</tr>
+
+						<tr>
+							<td valign="top"><b>Viesti:</b><br />
+							<textarea name="message" id="message" style="width:150px; height:60px"></textarea>
+						</tr>
+
+						<tr>
+							<td colspan="2">
+								Tämä yhteydenotto lähtee IP:stä : 81.197.215.254
+							</td>
+						</tr>
+
+						<tr>
+							<td colspan="2">
+								<input type="submit" name="sbmtContactRpt" value="Lähetä"  />
+							</td>
+						</tr>
+					</table>
+					</td>
+				</tr>
+				</table>
+				</form>
+				<!-- End : Bubble content -->
+			</td>
+	<td class="bubble_right_border">&nbsp;</td>
+</tr>
+
+<tr>
+    <td valign="bottom"><img src="http://script.nettix.fi/extra/common_image/bottom_curve1.png" width="23" height="24" alt="" /></td>
+	<td class="bubble_bottom_border">&nbsp;</td>
+    <td valign="bottom"><img src="http://script.nettix.fi/extra/common_image/bottom_curve2.png" width="23" height="24" alt="" /></td>
+</tr>
+</table>
+</div>
+
+<div id="bubble" name="bubble" style="display:none" class="bubble">
+<table width="415" border="0" cellspacing="0" cellpadding="0">
+<tr>
+	<td width="19" valign="top"><img src="http://script.nettix.fi/extra/common_image/top_curve1.png" width="23" height="30" alt="" /></td>
+	<td align="right" valign="bottom" class="bubble_top_border"><img src="http://script.nettix.fi/extra/common_image/close.gif" onclick="return hideBubble('bubble');" alt="" class="handicon" /></td>
+	<td width="19" valign="top"><img src="http://script.nettix.fi/extra/common_image/top_curve2.png" width="23" height="30" alt="" /></td>
+</tr>
+
+<tr>
+	<td class="bubble_left_border">&nbsp;</td>
+	<td class="bubble_area">
+		<!-- Start : Bubble content -->
+		<form name="badAd" id="badAd" method="post" onsubmit="hideBubble('bubble');docClickLoader.submitInto(this, 'badAdMsg', event);" action="/viewVehicle.php?id_car=1393202"><input type="hidden" name="idAd" value="1393202" />
+<input type="hidden" name="idAdOwner" value="407147" />
+<input type="hidden" id="btnImgUrl" name="btnImgUrl" value="http://script.nettiauto.com/extra/siteimage" />
+<input type="hidden" id="sesnLang" name="sesnLang" value="2" />
+<input type="hidden" id="changedTip" name="changedTip" value="Toimintoa voi käyttää vain kerran ilmoitusta kohden" />
+
+			<table width="100%" cellspacing="0" cellpadding="3" border="0">
+			<tr>
+				<td colspan="2" style="padding-top:5px;">
+					Voit ilmoittaa ylläpidolle asiattomasta ilmoituksesta tai ilmoituksen jättäjästä. Voit käyttää tätä toimintoa vain kerran ilmoitusta kohden. Väärinkäytökset tutkitaan.
+				</td>
+			</tr>
+
+			<tr height="6"><td colspan="2"></td></tr>
+
+			<tr>
+				<td colspan="2" valign="top">
+					<table width="100%" border="0" cellpadding="2" cellspacing="0">
+					<tr>
+						<td>
+							<font class="star">*</font>
+						</td>
+
+						<td>
+							<input type="checkbox" name="report_ad" id="report_ad" value="A" checked="checked" /><label for="report_ad">Ilmoita tämä ilmoitus (1393202)</label>
+						</td>
+					</tr>
+
+					<tr>
+						<td>&nbsp;</td>
+						<td>
+							<input type="checkbox" name="report_owner" id="report_owner" value="O"  /><label for="report_owner">Ilmoita tämän ilmoituksen jättäjä (Sami Finnilä)</label>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+
+			<tr height="6"><td colspan="2"></td></tr>
+
+			<tr>
+				<td valign="top"><font class="star" style="padding-right:4px;">*</font>Aihe&nbsp;: </td>
+				<td><textarea name="content" id="content" style="width:310px; height:80px"></textarea></td>
+			</tr>
+
+			<tr>
+				<td>&nbsp;</td>
+				<td>
+					<input type="submit" name="sbmtBadRpt" value="Lähetä" onclick="if(badAdPress()){/*hideBubble('bubble');*/}else{return false;}"  class="button" />&nbsp;
+					<input type="reset" name="reset" value="Tyhjennä" class="button" />
+				</td>
+			</tr>
+			</table>
+		</form>
+		<!-- End : Bubble content -->
+	</td>
+    <td class="bubble_right_border">&nbsp;</td>
+</tr>
+
+<tr>
+    <td valign="bottom"><img src="http://script.nettix.fi/extra/common_image/bottom_curve1.png" width="23" height="24" alt="" /></td>
+	<td class="bubble_bottom_border">&nbsp;</td>
+    <td valign="bottom"><img src="http://script.nettix.fi/extra/common_image/bottom_curve2.png" width="23" height="24" alt="" /></td>
+</tr>
+</table>
+</div></td>
+</tr>
+</table>
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<!-- $Id: na_submitQuestion.ihtml,v 1.13 2007/03/08 12:22:09 samir Exp $ -->
+
+<tr>
+	<td>
+		<script language="javascript" type="text/javascript">
+		<!--
+		function loginWarning()
+		{
+			if(document.queAsk.que.value.length > 0)
+			{
+				alert(msgAskForLogin);
+				document.queAsk.que.value='';
+				return false;
+			}
+		}
+		// -->
+		</script>
+		
+		<form name="queAsk" method="post" onsubmit="return checkQue(this);" action=""><input type="hidden" name="id_user" value="" />
+<input type="hidden" name="up" value="N" />
+<input type="hidden" name="id_car" value="1393202" />
+
+		<table width="100%" cellspacing="0" cellpadding="0" border="0">
+		<tr class="headingbg">
+			<td><h1>Kysy myyjältä ilmoituksen kohteesta</h1></td>
+		</tr>
+
+		<tr><td class="whitebg"><img src="http://script.nettix.fi/extra/common_image/spacer.gif" alt="" height="1" width="1" /></td></tr>
+
+		<tr>
+			<td class="odd">
+				<table width="100%" border="0" cellpadding="5" cellspacing="0">
+				<tr>
+					<td valign="top"><a href="javascript:openImg('popUpLogin.php','350','350');" onmouseover="ddrivetip('Tämä ominaisuus on vain rekisteröityneille käyttäjälle. Ole hyvä ja rekisteröidy. Jos olet jo rekisteröitynyt, kirjaudu sisään palveluun.','#ffffff',255);" onmouseout="hideddrivetip();"><img src="http://script.nettix.fi/extra/common_image/2/reg_icon.gif" border="0" class="alignmiddle" title="" alt="Tämä ominaisuus on vain rekisteröityneille käyttäjälle. Ole hyvä ja rekisteröidy. Jos olet jo rekisteröitynyt, kirjaudu sisään palveluun." /></a>&nbsp;&nbsp;</td>
+					<td class="lineheight">Syötä kysymyksesi tähän (vaatii sisäänkirjautumisen Nettiautoon). HUOM! Kysyjän nimi ja yhteystiedot lähetetään sähköpostiste myyjälle. Kysymystä ei voi peruuttaa. Kysymystä ei näytetä, ennen kuin myyjä siihen vastaa - tällä suojataan myyjää häirinnältä. Myyjän vastattua, sekä kysymys, kysyjän nimi sekä vastaus tulevat julkisiksi. Ilmoitukseen merkityllä myyjällä on mahdollisuus poistaa kysymykset ja vastaukset.</td>
+				</tr>
+				</table>
+
+				<div class="listpadding printHide" align="center">
+					<b>Syötä kysymys tähän : </b>
+					<input type="text" name="que" class="textbox5" onkeyup="loginWarning();" />
+					
+				</div>
+			</td>
+		</tr>
+		</table>
+		</form>
+	</td>
+</tr>
+
+
+
+<tr>
+	<td align="center">
+		<div id="badAdMsg" name="badAdMsg"></div>
+	</td>
+</tr>
+
+<tr class="even">
+	<td  class="printHide">
+		<form method="post" action="">
+		<table width="100%" cellspacing="0" cellpadding="5" border="0">
+		<tr>
+			<td align="center">
+				<input type="hidden" name="opt" value="Fav" />
+				<input type="hidden" name="fav_car[]" value="1393202" />
+
+				<img id="badAdBtn" src="http://script.nettix.fi/extra/common_image/2/badad.gif" alt="Tämä ominaisuus on vain rekisteröityneille käyttäjälle. Ole hyvä ja rekisteröidy. Jos olet jo rekisteröitynyt, kirjaudu sisään palveluun." title="Tämä ominaisuus on vain rekisteröityneille käyttäjälle. Ole hyvä ja rekisteröidy. Jos olet jo rekisteröitynyt, kirjaudu sisään palveluun." border="0" onclick="openImg('../popUpLogin.php','350','350');" class="handicon" style="vertical-align:middle" />
+
+				<a href="sendLink.php?id_car=1393202&amp;sFlag=&amp;PN[0]=car_info&amp;PL[0]=viewVehicle.php?id_car=1393202"><img src="http://script.nettix.fi/extra/common_image/2/sendlink.gif" alt="Linkkivinkki kaverille" title="Linkkivinkki kaverille" border="0" class="alignmiddle" /></a>&nbsp;
+				<a href="/pdfVif.php?id_car=1393202" onclick="openWin('/pdfVif.php?id_car=1393202','vif1393202'); return false;"><img src="http://script.nettix.fi/extra/common_image/2/pdf.gif" alt="PDF" title="PDF" border="0" class="alignmiddle" /></a>&nbsp;
+				<input type="image" name="add_fav" alt="Lisää suosikkeihin" title="Lisää suosikkeihin" src="http://script.nettiauto.com/extra/siteimage/2/addFavorite.gif" /><!-- When vehicle is not sold only then display 'Add to favorite' -->
+				<a href="/viewVehicle.php?id_car=1393202&amp;mainOnly=1&amp;up=N&amp;sitelang=2" onclick="openWin('/viewVehicle.php?id_car=1393202&amp;mainOnly=1&amp;sitelang=2','vifp1393202'); return false;"><img src="http://script.nettiauto.com/extra/siteimage/2/printable.gif" alt="Kirjoitinystävällinen muoto" title="Kirjoitinystävällinen muoto" border="0" class="alignmiddle" /></a>&nbsp;
+			</td>
+		</tr>
+		</table>
+		</form>
+	</td>
+</tr>
+
+<tr class="odd">
+	<td class="smalltext">
+		<div class="padding" align="justify">* Nettiauto.com ei ota vastuuta ilmoituksissa mainittujen tietojen paikkansapitävyydestä, sillä ilmoitusaineisto perustuu myyjien antamiin tietoihin. Ilmoitetuissa tiedoissa saattaa silti olla puutteita tai virheitä, jotka eivät ole tahallisia. Ilmoitetut tiedot eivät siten ole sitovia, ennenkuin myyjä on ne pyynnöstäsi vahvistanut.</div>
+	</td>
+</tr>
+
+<tr align="center">
+	 <td class="printHide">
+		<!-- Vif ad start here -->
+		<script language="javascript">
+		<!--
+		document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtech.de/addyn|3.0|555|1132865|0|16|ADTECH;loc=100;target=_blank;grp=[group];misc='+new Date().getTime()+'"></scri'+'pt>');
+		//-->
+		</script><noscript><a href="http://adserver.adtech.de/adlink|3.0|555|1132865|0|16|ADTECH;loc=300;grp=[group]" target="_blank"><img src="http://adserver.adtech.de/adserv|3.0|555|1132865|0|16|ADTECH;loc=300;grp=[group]" border="0" width="1" height="1"></a></noscript>
+	</td>
+</tr>
+
+<tr align="center">
+	<td class="printHide" style="padding:10px;"><!-- $Id: na_plazaFeed.ihtml,v 1.1 2007/01/19 16:25:18 manoj Exp $ -->
+
+<div style="width:300px;">
+	<div class="plaza_top">&nbsp;</div>
+	<ul class="plaza_box">
+		<li class="model_text"><a href="http://plaza.fi/nettix/keskustelu/c20254" class="plaza_model" target="_blank">Volkswagen</a></li><li class="plaza_odd"><a href="http://plaza.fi/nettix/keskustelu/t1605823" target="_blank" class="plaza_menu">vw lt</a></li><li class="plaza_even"><a href="http://plaza.fi/nettix/keskustelu/t1608245" target="_blank" class="plaza_menu">Miksi Golffi nakuttaa?</a></li><li class="plaza_odd"><a href="http://plaza.fi/nettix/keskustelu/t1608771" target="_blank" class="plaza_menu">Polo 1.2 uutena</a></li><li class="plaza_even"><a href="http://plaza.fi/nettix/keskustelu/t1611138" target="_blank" class="plaza_menu">Tdi Golffin kilometrit</a></li><li class="plaza_odd"><a href="http://plaza.fi/nettix/keskustelu/t1613820" target="_blank" class="plaza_menu">2.0 TDI</a></li>
+	</ul>
+	<div class="plaza_bottom"><a href="http://www.plaza.fi/nettix/keskustelu" class="plaza_footer" target="_blank">www.plaza.fi/nettix/keskustelu</a></div>
+</div></td>
+</tr>
+
+<!-- google adsense tag for vif -->
+<tr>
+	<td align="center" class="printHide">
+		<script type="text/javascript"><!--
+		google_ad_client = "pub-6763722334048022";
+		google_alternate_color = "FFFFFF";
+		google_ad_width = 468;
+		google_ad_height = 60;
+		google_ad_format = "468x60_as";
+		google_ad_type = "text";
+		//2007-01-26: Ajoneuvotietosivun alareuna
+		google_ad_channel = "0783986318";
+		google_color_border = "FFFFFF";
+		google_color_bg = "FFFFFF";
+		google_color_link = "DB4200";
+		google_color_text = "000000";
+		google_color_url = "008000";
+		google_hints = "Volkswagen Kupla 1.6"
+		//-->
+		</script>
+		<script type="text/javascript"
+		src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+		</script>
+	</td>
+</tr>
+</table>
+
+		</div>
+		
+		<div class="graybg printHide" style="width:180px; float:right;">
+			<!-- Right navigation part -->
+			<!-- $Id: na_rightNav.ihtml,v 1.73 2007/01/15 17:30:00 kaushik Exp $ -->
+
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr><td><!-- $Id: na_searchVehicle.ihtml,v 1.11 2006/07/31 12:23:33 rashmin Exp $	-->
+
+<script language="javascript" type="text/javascript">
+<!--
+function check_search()
+{
+	if(isblank(document.search.veh_id.value) && isblank(document.search.veh_reg_no.value))
+	{
+		if (!document.srch.elements[0].selectedIndex==0 || !document.srch.elements[1].selectedIndex==0 || !document.srch.elements[2].selectedIndex==0 || !document.srch.elements[3].selectedIndex==0 || !document.srch.elements[4].selectedIndex==0 || !document.srch.elements[5].selectedIndex==0 || !document.srch.elements[6].selectedIndex==0 || !document.srch.elements[7].selectedIndex==0 || !document.srch.elements[8].selectedIndex==0)
+		{
+			document.srch.submit();
+			return false;
+		}
+		
+		//Why both are blank
+		alert(msgBlankSearchVehicle);
+		document.search.veh_id.focus();
+		return false;
+	}
+	else if(document.search.veh_id.value && document.search.veh_reg_no.value)
+	{
+		//Why both have value
+		alert(msgEnterOne);
+		document.search.veh_id.focus();
+		return false;
+	}
+	else
+	{
+		//If vehicle id is there
+		if(document.search.veh_id.value)
+		{
+			if(document.search.veh_id.value.match(/^[0-9]{1,}$/))
+			{
+				//Strips blank spaces from left and right
+				var lre=/^\s*/;
+				var rre=/\s*$/;
+
+				document.search.veh_id.value=document.search.veh_id.value.replace(lre,"");
+				document.search.veh_id.value=document.search.veh_id.value.replace(rre,"");
+				location.href="viewVehicle.php?id_car="+document.search.veh_id.value;
+			}
+			else
+			{
+				alert(msgNumeric);
+				document.search.veh_id.focus();
+				return false;
+			}
+		}
+
+		//If vehicle registration no is there
+		if(document.search.veh_reg_no.value)
+		{
+			regno=document.search.veh_reg_no.value;
+
+			if(regno.match(/^([a-zA-ZäÄÖöÅå]{1,3})([0-9]{1,3})$/) || regno.match(/^([a-zA-ZäÄÖöÅå]{1,3})-([0-9]{1,3})$/) || regno.match(/^([0-9]{1,3})([a-zA-ZZäÄÖöÅå]{1,3})$/) || regno.match(/^([0-9]{1,3})-([a-zA-ZZäÄÖöÅå]{1,3})$/))
+			{
+				//Strips blank spaces from left and right
+				var lre=/^\s*/;
+				var rre=/\s*$/;
+
+				regno=regno.replace(lre,"");
+				regno=regno.replace(rre,"");
+
+				location.href="viewVehicle.php?reg_no="+regno;
+			}
+			else
+			{
+				alert(msgInvalidRegNo);
+				document.search.veh_reg_no.focus();
+				return false;
+			}
+		}
+	}
+	return false;
+}
+//-->
+</script>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr class="headingbg"> 
+	<td><h1>Etsi ajoneuvoja</h1></td>
+</tr>
+
+<tr><td valign="top" class="whitebg"><img src="http://script.nettix.fi/extra/common_image/spacer.gif" width="1" height="1" alt="" /></td></tr>
+
+<tr> 
+	<td>
+		<form name="search" method="post" action="" onsubmit="return check_search();">
+		<table width="100%" border="0" cellpadding="3" cellspacing="0" class="tbpadding">
+		
+		<tr>
+			<td width="45%" align="right">Ajoneuvo Id : </td>
+			<td width="55%"><input type="text" name="veh_id" class="textbox1" maxlength="10" /></td>
+		</tr>
+
+		<tr>
+			<td align="right">TAI&nbsp;&nbsp;Rek. No : </td>
+			<td><input type="text" name="veh_reg_no" class="textbox1" /></td>
+		</tr>
+
+		<tr>
+			<td align="center" colspan="2"><input type="submit" name="direct" value="Hae" class="button1" /></td>
+		</tr>
+		</table>
+		</form>
+	</td>
+</tr>
+</table></td></tr>
+
+	<tr><td class="whitebg"><img src="http://script.nettix.fi/extra/common_image/spacer.gif" width="1" height="5" alt="" /></td></tr>
+
+	<tr><td><!-- $Id: na_simpleSearch.ihtml,v 1.32 2007/04/25 11:36:00 manoj Exp $ -->
+
+<script language="javascript" type="text/javascript">
+<!--
+var boatUrl="http://www.nettivene.com";
+var motoUrl="http://www.nettimoto.com";
+var varaosaUrl="http://www.nettivaraosa.com";
+var koneUrl="http://www.nettikone.com";
+var karavaaniUrl="http://www.nettikaravaani.com";
+try
+{
+	/* Check whether last entry is loaded in memory,
+	if not then load it again from server */
+	var dummyJs=stype[1][0];
+}
+catch(e)
+{
+	document.write('<scr'+'ipt src="http://script.nettiauto.com/extra/tmp/make_2_26072007014930.js" type="text/javascript"></scr'+'ipt><scr'+'ipt src="http://script.nettiauto.com/extra/tmp/town_2.js" type="text/javascript"></scr'+'ipt>');
+}
+
+function display_search()
+{
+	if(document.getElementById("advSearch").style.display == 'inline')
+		document.getElementById("advSearch").style.display = 'none';
+	else
+		document.getElementById("advSearch").style.display = 'inline';
+}
+
+function blankCri()
+{
+   document.srch.engineTo.value='';
+   document.srch.engineFrom.value='';
+   document.srch.mileageTo.value='';
+   document.srch.mileageFrom.value='';
+   document.srch.id_domicile.value='';
+   document.srch.id_town.length=1;
+
+   document.srch.id_acc_air.checked=false;
+   document.srch.id_acc_leather.checked=false;
+   document.srch.id_acc_traction.checked=false;
+   document.srch.id_four_wheel.checked=false;
+}
+
+//-->
+</script>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr class="headingbg">
+	<td><h1>Pikahaku</h1></td>
+</tr>
+
+<tr><td class="whitebg"><img src="http://script.nettix.fi/extra/common_image/spacer.gif" width="1" height="1" alt="" /></td></tr>
+
+<tr>
+	<td valign="top" align="center" class="padding">
+		<form action="simpleSearch.php" name="srch">
+		<input type="hidden" name="show" value="inline" />
+		<table cellspacing="0" cellpadding="2" border="0">
+		<tr>
+			<td align="center">
+				<select name="id_vehicle_type" class="pricelistbox" onchange="RemoveGroups('simp_src_make');subTypeChange(this,this.form.id_car_type,'');vehicleTypeChange(this,this.form.id_make,'','Y',this.form.id_model);">
+				<option value="">Tyyppi</option><option value="1" >Henkilöauto</option><option value="18" >Pakettiauto</option><option value="3" >Minibussi</option><option value="26" >Kevyt kuorma-auto</option><option value="20" >Varaosat - nettivaraosa.com</option><option value="21" >Moottoripyörä - nettimoto.com</option><option value="22" >Moottorikelkka - nettimoto.com</option><option value="23" >Vene - nettivene.com</option><option value="27" >
+					Kuorma-auto - nettikone.com</option><option value="28" >Perävaunu - nettikone.com</option><option value="13" >Matkailuvaunu - nettikaravaani.com</option><option value="14" >Matkailuauto - nettikaravaani.com</option></select>
+			</td>
+		</tr>
+
+		<tr>
+			<td align="center">
+				<select id="simp_src_make" name="id_make" class="pricelistbox" onchange="makeChange(this,this.form.id_model,'','Y',document.srch.id_vehicle_type);">
+					<option value="">Merkki</option>
+				</select>
+			</td>
+		</tr>
+
+		<tr>
+			<td align="center"><select name="id_model" class="pricelistbox"><option value="">Malli</option></select></td>
+		</tr>
+
+		<tr>
+			<td align="center">
+				<select name="id_car_type" class="pricelistbox"><option value="">Korimalli</option><option value="1" >Coupé</option><option value="9" >Avoauto</option><option value="12" >Pickup</option><option value="4" >Farmari</option><option value="33" >Hardtop</option><option value="18" >Kilpa-ajoneuvo</option><option value="43" >Lyhyt - Korkea</option><option value="42" >Lyhyt - Puolikorkea</option><option value="5" >Maastoauto</option><option value="8" >Muu</option><option value="44" >Pitkä - Korkea</option><option value="45" >Pitkä - Puolikorkea</option><option value="2" >Porrasperä</option><option value="40" >Puoli-integroitu</option><option value="46" >Puolipitkä - Korkea</option><option value="47" >Puolipitkä - Puolikorkea</option><option value="7" >Tila-auto</option><option value="3" >Viistoperä</option></select>
+			</td>
+		</tr>
+
+		<tr>
+			<td align="center">
+				<select name="id_fuel_type" class="pricelistbox"><option value="">Polttoaine</option><option value="1" >Bensiini</option><option value="2" >Diesel</option><option value="5" >Hybridi</option><option value="4" >Sähkö</option><option value="3" >Ei ilmoitettu</option></select>
+			</td>
+		</tr>
+
+		<tr>
+			<td align="center">
+				<select name="id_gear_type" class="pricelistbox"><option value="">Vaihteisto</option><option value="2" >Manuaali</option><option value="3" >Automaatti</option><option value="1" >Ei ilmoitettu</option></select>
+			</td>
+		</tr>
+
+		<tr>
+			<td align="center">
+				<select name="pfrom" onchange="priceChange(this,this.form.pto,'','&euro;');" class="pricelistbox">
+					<option value="">Hinta alkaen</option><option value="1" >1 &euro;</option><option value="500" >500 &euro;</option><option value="1000" >1 000 &euro;</option><option value="1500" >1 500 &euro;</option><option value="2000" >2 000 &euro;</option><option value="2500" >2 500 &euro;</option><option value="3000" >3 000 &euro;</option><option value="4000" >4 000 &euro;</option><option value="5000" >5 000 &euro;</option><option value="6000" >6 000 &euro;</option><option value="7000" >7 000 &euro;</option><option value="8000" >8 000 &euro;</option><option value="9000" >9 000 &euro;</option><option value="10000" >10 000 &euro;</option><option value="12000" >12 000 &euro;</option><option value="14000" >14 000 &euro;</option><option value="16000" >16 000 &euro;</option><option value="18000" >18 000 &euro;</option><option value="20000" >20 000 &euro;</option><option value="25000" >25 000 &euro;</option><option value="30000" >30 000 &euro;</option><option value="35000" >35 000 &euro;</option><option value="40000" >40 000 &euro;</option><option value="45000" >45 000 &euro;</option><option value="50000" >50 000 &euro;</option><option value="60000" >60 000 &euro;</option><option value="70000" >70 000 &euro;</option><option value="80000" >80 000 &euro;</option><option value="90000" >90 000 &euro;</option><option value="100000" >100 000 &euro;</option><option value="110000" >110 000 &euro;</option><option value="120000" >120 000 &euro;</option><option value="130000" >130 000 &euro;</option><option value="140000" >140 000 &euro;</option><option value="150000" >150 000 &euro;</option>
+				</select>
+			</td>
+		</tr>
+
+		<tr>
+			<td align="center"><select name="pto" class="pricelistbox"><option value="">Hinta päättyen</option></select></td>
+		</tr>
+
+		<tr>
+			<td align="center">
+				<select name="yfrom" class="pricelistbox" onchange="yearChange(this,this.form.yto,'');">
+					<option value="">Vuosimalli alkaen</option><option value="2008">2008</option><option value="2007">2007</option><option value="2006">2006</option><option value="2005">2005</option><option value="2004">2004</option><option value="2003">2003</option><option value="2002">2002</option><option value="2001">2001</option><option value="2000">2000</option><option value="1999">1999</option><option value="1998">1998</option><option value="1997">1997</option><option value="1996">1996</option><option value="1995">1995</option><option value="1994">1994</option><option value="1993">1993</option><option value="1992">1992</option><option value="1991">1991</option><option value="1990">1990</option><option value="1989">1989</option><option value="1988">1988</option><option value="1987">1987</option><option value="1986">1986</option><option value="1985">1985</option><option value="1984">1984</option><option value="1983">1983</option><option value="1982">1982</option><option value="1981">1981</option><option value="1980">1980</option><option value="1979">1979</option><option value="1978">1978</option><option value="1977">1977</option><option value="1976">1976</option><option value="1975">1975</option><option value="1974">1974</option><option value="1973">1973</option><option value="1972">1972</option><option value="1971">1971</option><option value="1970">1970</option><option value="1969">1969</option><option value="1968">1968</option><option value="1967">1967</option><option value="1966">1966</option><option value="1965">1965</option><option value="1964">1964</option><option value="1963">1963</option><option value="1962">1962</option><option value="1961">1961</option><option value="1960">1960</option><option value="1959">1959</option><option value="1958">1958</option><option value="1957">1957</option><option value="1956">1956</option><option value="1955">1955</option><option value="1954">1954</option><option value="1953">1953</option><option value="1952">1952</option><option value="1951">1951</option><option value="1950">1950</option><option value="1949">1949</option><option value="1948">1948</option><option value="1947">1947</option><option value="1946">1946</option><option value="1945">1945</option><option value="1944">1944</option><option value="1943">1943</option><option value="1942">1942</option><option value="1941">1941</option><option value="1940">1940</option><option value="1939">1939</option><option value="1938">1938</option><option value="1937">1937</option><option value="1936">1936</option><option value="1935">1935</option><option value="1934">1934</option><option value="1933">1933</option><option value="1932">1932</option><option value="1931">1931</option><option value="1930">1930</option><option value="1929">1929</option><option value="1928">1928</option><option value="1927">1927</option><option value="1926">1926</option><option value="1925">1925</option><option value="1924">1924</option><option value="1923">1923</option><option value="1922">1922</option><option value="1921">1921</option><option value="1920">1920</option><option value="1919">1919</option><option value="1918">1918</option><option value="1917">1917</option><option value="1916">1916</option><option value="1915">1915</option><option value="1914">1914</option><option value="1913">1913</option><option value="1912">1912</option><option value="1911">1911</option><option value="1910">1910</option><option value="1909">1909</option><option value="1908">1908</option><option value="1907">1907</option><option value="1906">1906</option><option value="1905">1905</option><option value="1904">1904</option><option value="1903">1903</option><option value="1902">1902</option><option value="1901">1901</option>
+				</select>
+			</td>
+		</tr>
+
+		<tr>
+			<td align="center"><select name="yto" class="pricelistbox"><option value="">Vuosimalli päättyen</option></select></td>
+		</tr>
+
+		<tr>
+			<td height="25"><input type="checkbox" name="show_search" id="show_search" value="1" onclick="display_search();blankCri();"  /> <label for="show_search">Tarkennettu haku</label></td>
+		</tr>
+ 		</table>
+
+		<div id="advSearch" style="display:none">
+		<div id="xsnazzy" class="paddingBottom">
+		<b class="gtop"><b class="gb1"></b><b class="gb2"></b><b class="gb3"></b><b class="gb4"></b></b>
+		<div class="gboxcontent padding">
+			<table cellspacing="0" cellpadding="2" border="0" align="center">
+			<tr>
+				<td align="center">
+					<select name="engineFrom" class="pricelistbox" onchange="listboxChange(this,this.form.engineTo,'','');">
+						<option value="">Moottorin til. alkaen</option><option value="0.1">0.1</option><option value="0.2">0.2</option><option value="0.3">0.3</option><option value="0.4">0.4</option><option value="0.5">0.5</option><option value="0.6">0.6</option><option value="0.7">0.7</option><option value="0.8">0.8</option><option value="0.9">0.9</option><option value="1.0">1.0</option><option value="1.1">1.1</option><option value="1.2">1.2</option><option value="1.3">1.3</option><option value="1.4">1.4</option><option value="1.5">1.5</option><option value="1.6">1.6</option><option value="1.7">1.7</option><option value="1.8">1.8</option><option value="1.9">1.9</option><option value="2.0">2.0</option><option value="2.1">2.1</option><option value="2.2">2.2</option><option value="2.3">2.3</option><option value="2.4">2.4</option><option value="2.5">2.5</option><option value="2.6">2.6</option><option value="2.7">2.7</option><option value="2.8">2.8</option><option value="2.9">2.9</option><option value="3.0">3.0</option><option value="3.1">3.1</option><option value="3.2">3.2</option><option value="3.3">3.3</option><option value="3.4">3.4</option><option value="3.5">3.5</option><option value="3.6">3.6</option><option value="3.7">3.7</option><option value="3.8">3.8</option><option value="3.9">3.9</option><option value="4.0">4.0</option><option value="4.1">4.1</option><option value="4.2">4.2</option><option value="4.3">4.3</option><option value="4.4">4.4</option><option value="4.5">4.5</option><option value="4.6">4.6</option><option value="4.7">4.7</option><option value="4.8">4.8</option><option value="4.9">4.9</option><option value="5.0">5.0</option><option value="5.1">5.1</option><option value="5.2">5.2</option><option value="5.3">5.3</option><option value="5.4">5.4</option><option value="5.5">5.5</option><option value="5.6">5.6</option><option value="5.7">5.7</option><option value="5.8">5.8</option><option value="5.9">5.9</option><option value="6.0">6.0</option><option value="6.1">6.1</option><option value="6.2">6.2</option><option value="6.3">6.3</option><option value="6.4">6.4</option><option value="6.5">6.5</option><option value="6.6">6.6</option><option value="6.7">6.7</option><option value="6.8">6.8</option><option value="6.9">6.9</option><option value="7.0">7.0</option><option value="7.1">7.1</option><option value="7.2">7.2</option><option value="7.3">7.3</option><option value="7.4">7.4</option><option value="7.5">7.5</option><option value="7.6">7.6</option><option value="7.7">7.7</option><option value="7.8">7.8</option><option value="7.9">7.9</option><option value="8.0">8.0</option><option value="8.1">8.1</option><option value="8.2">8.2</option><option value="8.3">8.3</option><option value="8.4">8.4</option><option value="8.5">8.5</option><option value="8.6">8.6</option><option value="8.7">8.7</option><option value="8.8">8.8</option><option value="8.9">8.9</option><option value="9.0">9.0</option><option value="9.1">9.1</option><option value="9.2">9.2</option><option value="9.3">9.3</option><option value="9.4">9.4</option><option value="9.5">9.5</option><option value="9.6">9.6</option><option value="9.7">9.7</option><option value="9.8">9.8</option><option value="9.9">9.9</option><option value="10.0">10.0</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td align="center">
+					<select name="engineTo" class="pricelistbox">
+						<option value="">Moottorin til. päättyen</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td align="center">
+					<select name="mileageFrom" class="pricelistbox" onchange="listboxChange(this,this.form.mileageTo,'','km');">
+						<option value="">Mittarilukema alkaen</option><option value="1">1 km</option><option value="5000">5 000 km</option><option value="10000">10 000 km</option><option value="15000">15 000 km</option><option value="20000">20 000 km</option><option value="25000">25 000 km</option><option value="30000">30 000 km</option><option value="35000">35 000 km</option><option value="40000">40 000 km</option><option value="45000">45 000 km</option><option value="50000">50 000 km</option><option value="55000">55 000 km</option><option value="60000">60 000 km</option><option value="65000">65 000 km</option><option value="70000">70 000 km</option><option value="75000">75 000 km</option><option value="80000">80 000 km</option><option value="85000">85 000 km</option><option value="90000">90 000 km</option><option value="95000">95 000 km</option><option value="100000">100 000 km</option><option value="105000">105 000 km</option><option value="115000">115 000 km</option><option value="125000">125 000 km</option><option value="135000">135 000 km</option><option value="145000">145 000 km</option><option value="155000">155 000 km</option><option value="165000">165 000 km</option><option value="175000">175 000 km</option><option value="185000">185 000 km</option><option value="195000">195 000 km</option><option value="205000">205 000 km</option><option value="215000">215 000 km</option><option value="225000">225 000 km</option><option value="235000">235 000 km</option><option value="245000">245 000 km</option><option value="255000">255 000 km</option><option value="265000">265 000 km</option><option value="275000">275 000 km</option><option value="285000">285 000 km</option><option value="295000">295 000 km</option><option value="320000">320 000 km</option><option value="350000">350 000 km</option><option value="400000">400 000 km</option><option value="450000">450 000 km</option><option value="500000">500 000 km</option><option value="550000">550 000 km</option><option value="600000">600 000 km</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td align="center">
+					<select name="mileageTo" class="pricelistbox"><option value="">Mittarilukema päättyen</option></select>
+				</td>
+			</tr>
+
+			<tr>
+				<td align="center">
+					<select name="id_domicile" class="pricelistbox" onchange="partTownChange(this,'id_town','','simp')"><option value="">Maakunta</option><option value="1" >Ahvenanmaa</option><option value="8" >Etelä-Karjala</option><option value="17" >Etelä-Pohjanmaa</option><option value="7" >Etelä-Savo</option><option value="12" >Itä-Uusimaa</option><option value="4" >Kainuu</option><option value="2" >Kanta-Häme</option><option value="20" >Keski-Pohjanmaa</option><option value="3" >Keski-Suomi</option><option value="5" >Kymenlaakso</option><option value="6" >Lappi</option><option value="21" >Pirkanmaa</option><option value="14" >Pohjanmaa</option><option value="10" >Pohjois-Karjala</option><option value="9" >Pohjois-Pohjanmaa</option><option value="16" >Pohjois-Savo</option><option value="23" >Päijät-Häme</option><option value="24" >Satakunta</option><option value="15" >Suomen ulkopuolella</option><option value="13" >Uusimaa</option><option value="11" >Varsinais-Suomi</option></select>
+				</td>
+			</tr>
+
+			<tr valign="top">
+				<td align="center">
+					<select name="id_town[]" id="id_town" class="listbox5" style="width:135px;" multiple="multiple">
+						<option value=""> Paikkakunta</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td style="line-height:180%;">
+					<input type="checkbox" name="id_acc_air" value="7"  />Ilmastointi<br />
+					<input type="checkbox" name="id_acc_leather" value="11"  />Nahkasisusta<br />
+					<input type="checkbox" name="id_acc_traction" value="19"  />Luistonesto<br />
+					<input type="checkbox" name="id_four_wheel" value="3"  />Neliveto<br />
+				</td>
+			</tr>
+			</table>
+		</div>
+		<b class="gbottom"><b class="gb4"></b><b class="gb3"></b><b class="gb2"></b><b class="gb1"></b></b>
+		</div>
+		</div>
+
+
+		<table cellspacing="0" cellpadding="2" border="0">
+		<tr>
+			<td align="center" height="30">
+				<input type="submit" name="search" value="Hae" class="button1" />
+			</td>
+		</tr>
+
+		<tr>
+			<td align="center"><a href="advSearch.php" title="Tarkka haku"><img src="http://script.nettix.fi/extra/common_image/search_icon.gif" border="0" alt="Tarkka haku" align="middle" />Tarkka haku</a></td>
+		</tr>
+		</table>
+		</form>
+	</td>
+</tr>
+</table>
+
+<script language="javascript" type="text/javascript">
+<!--
+RemoveGroups('simp_src_make');
+vehicleTypeChange(document.srch.id_vehicle_type,document.srch.id_make,"","Y",document.srch.id_model);
+makeChange(document.srch.id_make,document.srch.id_model,"","Y",document.srch.id_vehicle_type);
+priceChange(document.srch.pfrom,document.srch.pto,"",'€');
+yearChange(document.srch.yfrom,document.srch.yto,"");
+subTypeChange(document.srch.id_vehicle_type,document.srch.id_car_type,'','');
+listboxChange(document.srch.mileageFrom,document.srch.mileageTo,"","km");
+listboxChange(document.srch.engineFrom,document.srch.engineTo,"","");
+partTownChange(document.srch.id_domicile,'id_town',"","simp");
+
+// -->
+</script></td></tr>
+
+	<tr><td class="whitebg"><img src="http://script.nettix.fi/extra/common_image/spacer.gif" width="1" height="5" alt="" /></td></tr>
+
+	<tr><td><!-- 2007-6-28 9:21:55 Auto Generated-->
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr class="headingbg"><td><h1>Pikalinkit</h1></td></tr>
+<tr><td class="whitebg"><img src="http://script.nettix.fi/extra/common_image/spacer.gif" width="1" height="1" alt="" /></td></tr>
+<tr><td align="center" valign="top">
+<table width="88%" border="0" cellpadding="0" cellspacing="0" class="tbpadding" align="center">
+<tr><td>
+		<ul>
+	
+		<li class="catlinkdot"><a href="listCategory.php?id=32">ALV väh.kelp</a></li>
+		<li class="catlinkdot"><a href="listCategory.php?id=10">Automaatit</a></li>
+		<li class="catlinkdot"><a href="listCategory.php?id=49">Avoautot</a></li>
+		<li class="catlinkdot"><a href="listCategory.php?id=48">Avolavat</a></li>
+		<li class="catlinkdot"><a href="listCategory.php?id=4">Coupét</a></li>
+		<li class="catlinkdot"><a href="listCategory.php?id=11">Dieselit</a></li>
+		<li class="catlinkdot"><a href="listCategory.php?id=28">Ei hinnoiteltu</a></li>
+		<li class="catlinkdot"><a href="listCategory.php?id=26">Farmarit</a></li>
+		<li class="catlinkdot"><a href="listCategory.php?id=15">Halpikset</a></li>
+		<li class="catlinkdot"><a href="listCategory.php?id=9">Jenkit</a></li>
+		<li class="catlinkdot"><a href="listCategory.php?id=7">Katsotuimmat</a></li>
+		<li class="catlinkdot"><a href="listCategory.php?id=50">Kesäautot</a></li>
+		<li class="catlinkdot"><a href="listCategory.php?id=47">Kiireelliset</a></li>
+		<li class="catlinkdot"><a href="listCategory.php?id=31">Kilpa-ajoneuvot</a></li>
+		<li class="catlinkdot"><a href="listCategory.php?id=6">Klassikot</a></li>
+		<li class="catlinkdot"><a href="listCategory.php?id=33">Kolariautot</a></li>
+		<li class="catlinkdot"><a href="listCategory.php?id=44">Kunnostettavat</a></li>
+		<li class="catlinkdot"><a href="listCategory.php?id=14">Loistoautot</a></li>
+		<li class="catlinkdot"><a href="listCategory.php?id=3">Maasturit</a></li>
+		<li class="catlinkdot"><a href="listCategory.php?id=40">Museoautot</a></li>
+		<li class="catlinkdot"><a href="listCategory.php?id=35">Nelivedot</a></li>
+		<li class="catlinkdot"><a href="listCategory.php?id=8">Nämä Myytiin</a></li>
+		<li class="catlinkdot"><a href="listCategory.php?id=2">Pakettiautot</a></li>
+		<li class="catlinkdot"><a href="listCategory.php?id=45">Projektit</a></li>
+		<li class="catlinkdot"><a href="listCategory.php?id=41">Sport -autot</a></li>
+		<li class="catlinkdot"><a href="listCategory.php?id=42">Sähköautot</a></li>
+		<li class="catlinkdot"><a href="listCategory.php?id=18">Tarjoukset</a></li>
+		<li class="catlinkdot"><a href="listCategory.php?id=13">Tax free</a></li>
+		<li class="catlinkdot"><a href="listCategory.php?id=12">Tila-autot</a></li>
+		<li class="catlinkdot"><a href="listCategory.php?id=25">Tuning -autot</a></li>
+		<li class="catlinkdot"><a href="listCategory.php?id=30">Turbot</a></li>
+		<li class="catlinkdot"><a href="listCategory.php?id=29">Vaihdetaan</a></li>
+		<li class="catlinkdot"><a href="listCategory.php?id=46">Vähän ajetut</a></li>
+		</ul>
+</td></tr></table></td></tr></table></td></tr>
+
+	<tr><td class="whitebg"><img src="http://script.nettix.fi/extra/common_image/spacer.gif" width="1" height="5" alt="" /></td></tr>
+	</table>
+
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr class="headingbg">
+		<td><h1>Mainos</h1></td>
+	</tr>
+
+	<tr><td class="whitebg"><img src="http://script.nettix.fi/extra/common_image/spacer.gif" width="1" height="1" alt="" /></td></tr>
+
+	<tr>
+		<td>
+			<table width="100%" cellspacing="0" cellpadding="0" border="0" class="tbpadding">
+			<tr>
+				<td align="center">
+					<div id="divFenia_ban" name="divFenia_ban">&nbsp;</div>
+				</td>
+			</tr>
+
+			
+
+			<tr>
+				<td align="center">
+					<div id="divAd_140_350" name="divAd_140_350">&nbsp;</div>
+				</td>
+			</tr>
+
+			<tr>
+				<td align="center">
+					<div id="divRightNavAd" name="divRightNavAd">&nbsp;</div>
+				</td>
+			</tr>
+
+			<!---->
+
+			
+			</table>
+		</td>
+	</tr>
+	</table>
+		</div>
+	</div>
+	<div style="clear:both; height:1px;"></div>
+</div>
+
+<!-- $Id: na_footer.ihtml,v 1.39 2007/06/08 11:31:46 manoj Exp $ -->
+	<div style="clear:both;">
+	<table width="920" border="0" cellspacing="0" cellpadding="0" align="center">
+	<tr>
+		<td><img src="http://script.nettix.fi/extra/common_image/spacer.gif" width="920" height="1" alt="" /></td>
+	</tr>
+
+	<tr class="footermenubg">
+		<td height="27" align="center">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+				<tr>
+					<td align="center">
+					<a class="footermenu" href="javascript:openImg('design.php','450','230');">Design</a> &nbsp;| &nbsp;
+					<a class="footermenu" href="http://www.nettix.fi/media.php?site=auto" target="_blank">Hinnasto &amp; Mediatiedot</a> &nbsp;| &nbsp;
+					<a class="footermenu" href="disclaimer.php">Käyttöoikeudet</a> &nbsp;| &nbsp;
+					<a class="footermenu" href="http://www.nettix.fi/advertise.php" target="_blank">Mainosta</a> &nbsp;| &nbsp;
+					<a class="footermenu" href="webmaster.php">Yhteystiedot</a> &nbsp;| &nbsp;
+					<a class="footermenu" href="feedback.php">Palaute</a> &nbsp;| &nbsp;
+					<a class="footermenu" href="faq.php">Ohjeet</a> &nbsp; &nbsp;
+					</td>
+
+					<td width="3%" align="right">
+						(B8@2)&nbsp;
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+
+	<tr>
+		<td height="50" align="center">
+			Copyright © 2000-2007 <a href="http://www.fiare.fi" target="_blank"><img src="http://script.nettix.fi/extra/common_image/gww_logo.gif" class="alignmiddle" alt="Designed by Fiare" title="Designed by Fiare" border="0" /></a>
+
+			<!--Red Sheriff Code starts-->
+			<!-- START TNS Matrix V11 -->
+<script type="text/javascript" src="http://script.nettiauto.com/extra/template/tmv11.js"></script>
+<script type="text/javascript">
+<!-- 
+var tmsec=new Array ('tmsec=nettiauto');
+getTMqs('http','www.nettiauto.com/VIF_P','','nettiauto_fi','fi','ISO-8859-1',tmsec);
+//-->
+</script>
+
+<noscript><img src="http://statistik-gallup.net/V11*www.nettiauto.com/VIF_P**nettiauto_fi/fi/ISO-8859-1/tmsec=nettiauto/"></noscript>
+<!-- END TNS Matrix V11 -->
+			<!--Red Sheriff Code ends-->
+		</td>
+	</tr>
+
+	<tr>
+		<td height="15">
+			&nbsp;
+		</td>
+	</tr>
+	</table>
+	</div>
+</div>
+</center>
+
+<!-- Hidden banners and advertisements for home page -->
+<!-- Fenia_ban banner for home page and rightNav -->
+<div id="hdnFenia_ban" name="hdnFenia_ban" style="display:none;"></div>
+<!-- 140 350 ad for home page and rightNav -->
+<div id="hdnAd_140_350" name="hdnAd_140_350" style="display:none;"><!-- $Id: na_140x350Ad.ihtml,v 1.39 2007/01/15 17:27:21 kaushik Exp $ -->
+<table width="100%" cellspacing="0" cellpadding="2" border="0">
+	<tr>
+		<td align="center">
+			<script language="javascript"><!--
+				document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtech.de/addyn|3.0|555|1125034|0|82|ADTECH;loc=100;target=_blank;grp=[group];misc='+new Date().getTime()+'"></scri'+'pt>');
+				//-->
+				</script><noscript><a href="http://adserver.adtech.de/adlink|3.0|555|1125034|0|82|ADTECH;loc=300;grp=[group]" target="_blank"><img src="http://adserver.adtech.de/adserv|3.0|555|1125034|0|82|ADTECH;loc=300;grp=[group]" border="0" width="140" height="350"></a></noscript>
+				
+		</td>
+	</tr>
+
+	<tr>
+		<td align="center">
+			
+		</td>
+	</tr>
+</table></div>
+<!-- Left side advertisements -->
+<div id="hdnAdHomeLeft" name="hdnAdHomeLeft" style="display:none;"></div>
+
+<!-- Hidden banners and advertisements for rightNav part -->
+<div id="hdnRightNavAd" name="hdnRightNavAd" style="display:none;"><!-- $Id: na_rightNavAd.ihtml,v 1.4 2007/07/16 05:54:20 husen Exp $ -->
+<table width="100%" cellspacing="0" cellpadding="2" border="0">
+<tr>
+	<td align="center"><a href="http://www.x-treme.fi" target="_blank"><img src="http://script.nettiauto.com/extra/advertise/suurbanneri.gif" border="0" alt="www.x-treme.fi" title="www.x-treme.fi" /></a></td>
+</tr>
+
+<tr>
+	<td align="center"><a href="http://banners.nebula.fi/link_vaaka.php?site=nettiauto2" target="_blank"><img width="150" height="61" src="http://script.nettiauto.com/extra/advertise/nebulogo.gif" border="0" alt="http://banners.nebula.fi/link_vaaka.php?site=nettiauto2" /></a></td>
+</tr>
+</table></div>
+
+<!-- Hidden banners and advertisements for VIF page -->
+<div id="hdnVifBanner" name="hdnVifBanner" style="display:none;"><!-- $Id: na_vifAd.ihtml,v 1.1 2007/01/15 17:32:20 kaushik Exp $ -->
+<script language="javascript"><!--
+document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtech.de/addyn|3.0|555|1185408|0|16|ADTECH;loc=100;target=_blank;grp=[group];misc='+new Date().getTime()+'"></scri'+'pt>');
+//-->
+</script><noscript><a href="http://adserver.adtech.de/adlink|3.0|555|1185408|0|16|ADTECH;loc=300;grp=[group]" target="_blank"><img src="http://adserver.adtech.de/adserv|3.0|555|1185408|0|16|ADTECH;loc=300;grp=[group]" border="0" width="1" height="1"></a></noscript></div>
+
+<!-- statatic bottom banner display here  -->
+<div id="footerBanner">
+	<script language="javascript" type="text/javascript">
+		<!--
+		document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtech.de/addyn|3.0|555|1125027|0|16|ADTECH;loc=100;target=_blank;grp=[group];misc='+new Date().getTime()+'"></scri'+'pt>');
+		//-->
+	</script>
+	<noscript><a href="http://adserver.adtech.de/adlink|3.0|555|1125027|0|16|ADTECH;loc=300;grp=[group]" target="_blank"><img src="http://adserver.adtech.de/adserv|3.0|555|1125027|0|16|ADTECH;loc=300;grp=[group]" border="0" width="1" height="1"></a></noscript>
+</div>
+
+<!-- Google Analytics code -->
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+				</script>
+				<script type="text/javascript">
+				_uacct = "UA-183348-1";
+				urchinTracker();
+				</script>
+
+<script language="javascript" type="text/javascript">
+<!--
+function cpContent(srcObj,destObj)
+{
+	if(srcObj && destObj)
+	{
+		destObj.innerHTML='';
+		destObj.innerHTML=srcObj.innerHTML;
+	}
+}
+
+/* for home page */
+/* For Fenia_ban banner on home page left side and the rightNav */
+cpContent(document.getElementById('hdnFenia_ban'),document.getElementById('divFenia_ban'));
+/* For ad 140 350 on home page left side and the rightNav */
+cpContent(document.getElementById('hdnAd_140_350'),document.getElementById('divAd_140_350'));
+/* For ad on home page left side */
+cpContent(document.getElementById('hdnAdHomeLeft'),document.getElementById('divAdHomeLeft'));
+/* for VIF page */
+cpContent(document.getElementById('hdnVifBanner'),document.getElementById('divVifBanner'));
+/* for rightNav part */
+cpContent(document.getElementById('hdnRightNavAd'),document.getElementById('divRightNavAd'));
+
+//-->
+</script>
+
+</body>
+</html>
