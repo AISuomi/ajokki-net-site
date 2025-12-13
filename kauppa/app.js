@@ -1,5 +1,37 @@
 // 1) LIITÄ TÄHÄN GOOGLE SHEETSIN "Publish to web" CSV -LINKKI:
 const SHEETS_CSV_URL = "https://docs.google.com/spreadsheets/d/1coJILtNPhy66E56n8tyANe7-JrTZEwF0lDrOs_ZXnrA/gviz/tq?tqx=out:csv";
+function cleanText(s){
+  return (s ?? "")
+    .toString()
+    .replace(/&nbsp;/gi, " ")
+    .replace(/\u00A0/g, " ")          // oikea non-breaking space
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function cleanUrl(u){
+  return cleanText(u)
+    .replace(/^\.\//, "")             // "./kuva.jpg" -> "kuva.jpg"
+    .replace(/^\/+/, "/");            // siisti tuplaviivat
+}
+
+function isLikelyRealImage(url){
+  const u = (url || "").toLowerCase();
+  if (!u) return false;
+
+  // hyväksy yleisimmät kuvapäätteet
+  const okExt = /\.(jpe?g|png|webp|gif)$/i.test(u);
+  if (!okExt) return false;
+
+  // suodata tyhjät/placeholderit (näitä tulee vanhoista sivuista paljon)
+  const bad = [
+    "spacer", "blank", "pixel", "transparent", "clear", "tyhja", "empty",
+    "15x15", "1x1", "0.gif"
+  ];
+  if (bad.some(x => u.includes(x))) return false;
+
+  return true;
+}
 
 
 function qs(sel){ return document.querySelector(sel); }
@@ -29,7 +61,7 @@ function parseCSV(text){
   return rows;
 }
 
-function norm(s){ return (s ?? "").toString().trim(); }
+function norm(s){ return cleanText(s); }
 function low(s){ return norm(s).toLowerCase(); }
 
 function toObj(headers, row){
@@ -41,11 +73,16 @@ function toObj(headers, row){
 function imagesFrom(p){
   const imgs = [];
   for (let i=1;i<=6;i++){
-    const v = norm(p[`kuva${i}`]);
-    if (v) imgs.push(v);
+    const raw = p[`kuva${i}`];
+    const v = cleanUrl(raw);
+    if (!v) continue;
+    if (!isLikelyRealImage(v)) continue;
+    imgs.push(v);
   }
-  return imgs;
+  // poista duplikaatit
+  return [...new Set(imgs)];
 }
+
 
 function pillSold(val){
   const v = low(val);
