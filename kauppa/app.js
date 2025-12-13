@@ -8,12 +8,25 @@ function cleanText(s){
     .replace(/\s+/g, " ")
     .trim();
 }
-
 function cleanUrl(u){
-  return cleanText(u)
-    .replace(/^\.\//, "")             // "./kuva.jpg" -> "kuva.jpg"
-    .replace(/^\/+/, "/");            // siisti tuplaviivat
+  let s = cleanText(u);
+
+  // jos url on tyhjä tai data-url, anna olla
+  if (!s) return "";
+  if (/^(data:|https?:\/\/)/i.test(s)) return s;
+
+  // siisti mahdolliset ./ ja ../ alut
+  s = s.replace(/^\.\//, "");
+  s = s.replace(/^(\.\.\/)+/, "");
+
+  // jos polku ei ala /:lla, pakota juureen
+  if (!s.startsWith("/")) s = "/" + s;
+
+  // poista tuplaviivat
+  s = s.replace(/\/{2,}/g, "/");
+  return s;
 }
+
 
 function isLikelyRealImage(url){
   const u = (url || "").toLowerCase();
