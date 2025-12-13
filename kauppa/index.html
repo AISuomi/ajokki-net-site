@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ajokki – Kauppa</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <div class="brand">
+        <div class="logo">AJOKKI</div>
+        <div class="tag">Vaihtoautot ja muut menopelit</div>
+      </div>
+
+      <div class="tools">
+        <input id="q" class="input" type="search" placeholder="Hae (Ford, diesel, mönkijä…)">
+        <select id="cat" class="select">
+          <option value="">Kaikki kategoriat</option>
+        </select>
+        <select id="sold" class="select">
+          <option value="">Kaikki</option>
+          <option value="ei">Myynnissä</option>
+          <option value="kyllä">Myyty</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div id="status" class="status">Ladataan tuotteita…</div>
+    <div id="grid" class="grid" aria-live="polite"></div>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot-inner">
+      <div>
+        <div class="foot-title">Yhteys</div>
+        <div class="foot-text">Soita ja varmista paikallaolo: <a href="tel:+358442621562">044 262 1562</a></div>
+      </div>
+      <div class="foot-muted">© Ajokki</div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
