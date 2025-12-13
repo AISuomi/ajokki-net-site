@@ -1,5 +1,6 @@
 // 1) LIITÄ TÄHÄN GOOGLE SHEETSIN "Publish to web" CSV -LINKKI:
-const SHEETS_CSV_URL = "PASTE_YOUR_CSV_URL_HERE";
+const SHEETS_CSV_URL = "https://docs.google.com/spreadsheets/d/1coJILtNPhy66E56n8tyANe7-JrTZEwF0lDrOs_ZXnrA/gviz/tq?tqx=out:csv";
+
 
 function qs(sel){ return document.querySelector(sel); }
 function qsa(sel){ return [...document.querySelectorAll(sel)]; }
